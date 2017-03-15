@@ -11,8 +11,8 @@
 # Receber o peso de uma pessoa em quilos e converter para gramas
 # ----------------------------------------------------------
 
-q = float(input("Digite o peso em quilos: "))
+weightkg = float(input("Digite o peso em quilos: "))
 
-g = q*1000
+weightg = weightkg*1000
 
-print("Seu peso em gramas é: ",g)
+print("Seu peso em gramas é: ",weightg)
