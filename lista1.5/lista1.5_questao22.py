@@ -9,3 +9,6 @@
 # Wilbert Luís Evangelista Marins           1715310055
 # Mackson Garcez Moreno de Oliveira júnior  1215090300
 #
+# 22. Faça um programa que receba o número de lados de um polígono convexo, calcule e mostre o número de diagonais desse polígono,
+# onde N é o número de lados do polígono. Sabe-se que ND=N(N-3)/2.
+#
