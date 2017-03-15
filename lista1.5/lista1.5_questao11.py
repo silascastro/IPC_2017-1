@@ -13,4 +13,5 @@
 # Sabe-se que A = (diagonal maior * diagonal menor)/2
 # ----------------------------------------------------------
 
-diag_larger = int(input("Informe a diagonal maior (cm) "))
+diag_larger = int(input("Informe a diagonal maior (cm): "))
+diag_smaller = int(input("Innforme a diagonal menor (cm): "))
