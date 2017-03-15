@@ -10,7 +10,7 @@
 # Reinaldo da Silva Vargas	            1715310054
 # Walter Nobre da Silva Conceição           1715310057
 #
-# 20 - João recebeu seu salário e precisa pagar duas contas que estão
+# 15 - João recebeu seu salário e precisa pagar duas contas que estão
 # atrasadas, João terá de pagar multa de 2% sobre cada conta. Faça um programa
 # que calcule e mostre quanto restará do salário de João.
 # ----------------------------------------------------------
