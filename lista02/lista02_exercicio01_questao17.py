@@ -8,6 +8,7 @@
 # Rodolfo gomes do nascimento        1515200550
 # Victor Hugo de Oliveira Carreira   1715310063
 # Wesley da Silva Rocha              1715310026
+#Luis Gustavo Moura de Queiros       1715310037
 #
 # Faça um Programa para uma loja de tintas. O programa deverá pedir o
 # tamanho em metros quadrados da área a ser pintada. Considere que a
