@@ -18,7 +18,7 @@
 # d) a idade dessa pessoa em semanas;
 # ----------------------------------------------------------
 
-print ('---------------------Subtração de 2 números---------------------')
+print ('---------------------Cálculo da Idade---------------------')
 try:
     a = input ('Digite o ano atual: ')
     a = int(a)
