@@ -13,3 +13,10 @@
 # e a distância que a escada está da parede. Calcule e mostre a medida da escada para que se
 # possa alcançar a ponta da escada.
 # ----------------------------------------------------------
+angle = int(input('informe o angulo'))
+distance = int(input('informe a distancia'))
+
+import math
+
+measure = distance / math.cos(angle)
+print(measure)
