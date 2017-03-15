@@ -19,3 +19,11 @@ elif((tab=="-")or(tab=="menos")):
     for x in range(11):
         resp=num-x
         print(resp)
+elif((tab=="+")or(tab=="mais")):
+    for x in range(11):
+        resp=num+x
+        print(resp)
+else:
+    for x in range(1,9):
+        resp=num/x
+        print(resp)
