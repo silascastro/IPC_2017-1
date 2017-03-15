@@ -9,5 +9,7 @@
 # Wilbert Luís Evangelista Marins           1715310055
 # Mackson Garcez Moreno de Oliveira júnior  1215090300
 #
-# 20.
+# 20. Faça um programa que receba a medida do ângulo formado por uma escada apoiada no chão
+# e a distância que a escada está da parede. Calcule e mostre a medida da escada para que se
+# possa alcançar a ponta da escada.
 # ----------------------------------------------------------
