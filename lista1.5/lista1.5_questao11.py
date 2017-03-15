@@ -10,7 +10,7 @@
 # Yuri Leandro de Aquino Silva        1615100462
 #
 # Faça um programa que calcule e mostre a área de um losango.
-# Sabe-se que A = (diagonal maior * diagonal menor)/2
+# Sabe-se que: A = (diagonal maior * diagonal menor)/2
 # ----------------------------------------------------------
 
 diag_larger = float(input("Informe a diagonal maior (cm): "))   # Usuário insere o tamanho da diagonal maior
