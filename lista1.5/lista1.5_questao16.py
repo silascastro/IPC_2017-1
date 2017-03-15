@@ -13,8 +13,8 @@
 # 16 - Faça um programa que receba o valor dos catetos de um triangulo, calcule e mostre o valor da hipotenusa.
 # ------------------------------------------------- ---------
 print("Para os valores dos catetos e o calculo correto, insira valores maiores que zero")
-cateto1 = float(input("Digite a medida do primeiro cateto: "))
-cateto2 = float(input("Digite a medida do segundo cateto: "))
-hipo = float(((cateto1**2)+(cateto2**2))**(1/2))
+leg01 = float(input("Digite a medida do primeiro cateto: "))
+leg02 = float(input("Digite a medida do segundo cateto: "))
+hypotenuse = float(((leg01**2)+(leg02**2))**(1/2))
 
-print("O valor da hipotenusa é ", round(hipo, 2))
+print("O valor da hipotenusa é ", round(hypotenuse, 2))
