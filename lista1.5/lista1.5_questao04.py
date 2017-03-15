@@ -11,7 +11,8 @@
 #04.Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas duas notas, 
 #considerando peso 2 para a primeira nota e peso 3 para a segunda nota
 #----------------------------------------------------------------------
-note1= float(input('primeira nota'))
-note2= float(input('segunda nota'))
-average= (note1*2 + note2*3) / 5
+note1 = float(input('primeira nota'))
+note2 = float(input('segunda nota'))
+average = (note1*2 + note2*3) / 5
+
 print(average)
