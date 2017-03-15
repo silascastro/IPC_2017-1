@@ -12,3 +12,6 @@
 # 22. Faça um programa que receba o número de lados de um polígono convexo, calcule e mostre o número de diagonais desse polígono,
 # onde N é o número de lados do polígono. Sabe-se que ND=N(N-3)/2.
 #
+numbers_of_sides = int(input('informe o numero de lados'))
+n_diagonals = (numbers_of_sides*(numbers_of_sides-3))/2
+print(n_diagonals)
