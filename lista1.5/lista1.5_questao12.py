@@ -17,3 +17,5 @@
 
 s_minimum = float(input("Informe o salário mínimo: "))
 s_employee = float(input("Informe salário do funcionário: "))
+amount_sm = s_employee/s_minimum
+print ("A quantidade de salarios minimos recebidos é: %.2f" % amount_sm)
