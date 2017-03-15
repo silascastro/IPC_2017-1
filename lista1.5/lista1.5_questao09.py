@@ -9,8 +9,9 @@
  #Vitor Simoes Azevedo 1715310025
  #Faça um Programa que calcule e mostra a área de um trapézio
  #--------------------------------------------------------------------------------------------------------
-bmaior=float(input("Digite o valor da base maior "))
-bmenor=float(input("Digite o valor da base menor "))
-h=float(input("Digite o valor da altura"))
-area=(bmaior+bmenor)*h/2
-print("a area é ",area)
+
+bbig = float(input("Digite o valor da base maior "))
+bsmall = float(input("Digite o valor da base menor "))
+h = float(input("Digite o valor da altura"))
+area = (bbig+bsmall)*h/2
+print("A area é ", area)
