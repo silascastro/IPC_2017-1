@@ -7,6 +7,7 @@
 # Rodolfo gomes do nascimento       -|- 1515200550
 # Victor Hugo de Oliveira Carreira  -|- 1715310063
 # Diego Reis Figueira               -|- 1515070169
+# Luis Gustavo Moura de Queiros     -|- 1715310037
 # Faça um programa que peça o tamanho de um arquivo
 # para download (em MB) e a velocidade de um link
 # de Internet (em Mbps), calcule e informe o tempo
