@@ -7,6 +7,7 @@
 #Rodolfo gomes do nascimento       -|- 1515200550
 #Victor Hugo de Oliveira Carreira  -|- 1715310063
 #Diego Reis Figueira               -|- 1515070169
+#Luis Gustavo Moura de Queiros     -|- 1715310037
 #Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 #a) o produto do dobro do primeiro com metade do segundo .
 #b) a soma do triplo do primeiro com o terceiro.
