@@ -7,7 +7,7 @@
 #Erik Atilio Silva Rey                   1715310059
 #Ulisses Antonio Antonino da Costa       1515090555
 #Guilherme Silva de Oliveira             1715310034
-#Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas duas notas, 
+#04.Faça um programa que receba duas notas, calcule e mostre a média ponderada dessas duas notas, 
 #considerando peso 2 para a primeira nota e peso 3 para a segunda nota
 #----------------------------------------------------------------------
 note1= float(input('primeira nota'))
