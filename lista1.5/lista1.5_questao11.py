@@ -13,7 +13,7 @@
 # Sabe-se que A = (diagonal maior * diagonal menor)/2
 # ----------------------------------------------------------
 
-diag_larger = int(input("Informe a diagonal maior (cm): "))   # Usuário insere o tamanho da diagonal maior
-diag_smaller = int(input("Informe a diagonal menor (cm): "))  # Usuário insere o tamanho da diagonal menor
-area = (diag_larger * diag_smaller) / 2                       # Fórmula para calcular a área (diagonal maior * diagonal menor) / 2
-print ("A área do losango é de %0.2f cm." % area)             # Imprime o valor da área
+diag_larger = float(input("Informe a diagonal maior (cm): "))   # Usuário insere o tamanho da diagonal maior
+diag_smaller = float(input("Informe a diagonal menor (cm): "))  # Usuário insere o tamanho da diagonal menor
+area = (diag_larger * diag_smaller) / 2                         # Fórmula para calcular a área (diagonal maior * diagonal menor) / 2
+print ("A área do losango é de %5.2f cm." % area)               # Imprime o valor da área
