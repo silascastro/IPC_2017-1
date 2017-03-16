@@ -10,7 +10,7 @@
 # João Vitor De Cordeiro B Gonçalves 1515140036
 # Rodrigo Duarte de Souza            1115140049
 #
-# Faça um programa quer receba três numeros, calcule e
+# Faça um programa que receba três numeros, calcule e
 # mostre a multiplicação desses números.
 # ----------------------------------------------------------
 
