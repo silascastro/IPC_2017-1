@@ -8,6 +8,7 @@
 # André Luis Laborda Neves           1515070006
 # Gabriel de Queiroz Souza           1715310044
 # João Vitor De Cordeiro B Gonçalves 1515140036
+# Rodrigo Duarte de Souza            1115140049
 # ----------------------------------------------------------
 numero1 = int(input('Informe o primeiro numero: '))
 numero2 = int(input('Informe o segundo numero: '))
