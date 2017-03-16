@@ -9,7 +9,7 @@
 # Vitor Summer Oliveira Pantaleão     1715310042
 # Yuri Leandro de Aquino Silva        1615100462
 #
-# Faça um programa que calcule em moestre a tabuada de
+# Faça um programa que calcule e mostre a tabuada de
 # um número digitado pelo usuário
 # ----------------------------------------------------------
 
@@ -31,4 +31,3 @@ else:
     for x in range(1,9):
         resp=num/x
         print(resp)
-        
