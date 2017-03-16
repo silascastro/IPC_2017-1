@@ -9,8 +9,12 @@
 # Gabriel de Queiroz Souza           1715310044
 # João Vitor De Cordeiro B Gonçalves 1515140036
 # Rodrigo Duarte de Souza            1115140049
+#
+# Faça um programa quer receba três numeros, calcule e
+# mostre a multiplicação desses números.
 # ----------------------------------------------------------
-numero1 = int(input('Informe o primeiro numero: '))
-numero2 = int(input('Informe o segundo numero: '))
-numero3 = int(input('Informe o terceiro numero: '))
-print('Produto dos fatores = ', numero1 * numero2 * numero3)
+
+number1 = float(input('Informe o primeiro numero: '))
+number2 = float(input('Informe o segundo numero: '))
+number3 = float(input('Informe o terceiro numero: '))
+print ('Produto dos fatores = ', number1 * number2 * number3)
