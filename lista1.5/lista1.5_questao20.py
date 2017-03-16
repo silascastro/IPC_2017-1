@@ -19,4 +19,4 @@ distance = int(input('informe a distancia'))
 import math
 
 measure = distance / math.cos(angle)
-print(measure)
+print('%d' % int(measure))
