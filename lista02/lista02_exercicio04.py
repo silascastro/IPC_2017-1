@@ -19,6 +19,7 @@ sides = 5
 
 colors = ['orange', 'green', 'purple', 'blue', 'red', 'brown']
 
+
 p = turtle.Pen()
 
 for x in range(sides):
