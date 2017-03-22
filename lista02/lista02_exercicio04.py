@@ -15,7 +15,7 @@
 
 import turtle
 
-sides = 6
+sides = 5
 
 colors = ['orange', 'green', 'purple', 'blue', 'red', 'brown']
 
