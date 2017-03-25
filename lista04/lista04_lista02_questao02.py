@@ -1,4 +1,5 @@
-#-------------------------------------------------------------------------------# Introdução a Programação de Computadores - IPC
+#-----------------------------------------------------------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr.
 # Erik Atlio Silva Rey                  1715310059
@@ -16,7 +17,7 @@
 #Apresentar a mensagem "A=" seguido pelo valor da variável area, conforme exemplo abaixo,
 #com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas,
 #não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
-#-------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------------------
 
 lightning = float(input("Digite o raio do circulo: "))
 pi = 3.14159
