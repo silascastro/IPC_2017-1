@@ -1,17 +1,17 @@
-a = float(input('Digite um numero: '))
-b = float(input('Digite um numero: '))
-c = float(input('Digite um numero: '))
+n1 = float(input('Digite um numero: '))
+n2 = float(input('Digite um numero: '))
+n3 = float(input('Digite um numero: '))
 
-lower = a
-if b < lower:
-	lower = b 
-if c < lower:
-	lower = c
-higher = a
-if b > higher:
-	higher = b
-if c > higher:
-	higher = c
+lower = n1
+if n2 < lower:
+	lower = n2 
+if n3 < lower:
+	lower = n3
+higher = n1
+if n2 > higher:
+	higher = n2
+if n3 > higher:
+	higher = n3
 
 print('O menor é: %d' %lower)
 print('O maior é: %d' %higher)
