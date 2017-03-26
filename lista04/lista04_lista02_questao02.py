@@ -19,8 +19,8 @@
 #não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 #------------------------------------------------------------------------------------------------------------
 
-lightning = float(input("Digite o raio do circulo: "))
+radius = float(input("Digite o raio do circulo: "))
 pi = 3.14159
-area = pi*lightning**2
+area = pi*radius**2
 
 print("A=",round(area,4))
