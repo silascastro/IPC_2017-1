@@ -9,11 +9,11 @@
 # Fang Yao                              1115180236
 #
 #42.Leia 3 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em
-# branco e em seguida, os valores na sequência como foram lidos.
+#branco e em seguida, os valores na sequência como foram lidos.
 #Entrada:
-#A entrada contem três números inteiros.
+#   A entrada contem três números inteiros.
 #Saída:
-#Imprima a saída conforme foi especificado.
+#   Imprima a saída conforme foi especificado.
 #-----------------------------------------------------------------------------------------------------------------------
 
 a, b, c = input().split()
