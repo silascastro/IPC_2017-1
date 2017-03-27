@@ -15,10 +15,10 @@
 #c.A mensagem "Aprovado com Distinção", se a média for igual a 10.
 #-----------------------------------------------------------------------------------------------------------------------
 
-np1 = float(input("Informe sua primeira nota: "))
-np2 = float(input("Informe sua segunda nota: "))
-np3 = float(input("Informe sua terceira nota: "))
-average = (np1+np2+np3)/3
+grade1 = float(input("Informe sua primeira nota: "))
+grade2 = float(input("Informe sua segunda nota: "))
+grade3 = float(input("Informe sua terceira nota: "))
+average = (grade1+grade2+grade3)/3
 
 if average == 10:
     print("Aprovado com Distinção")
