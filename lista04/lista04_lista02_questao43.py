@@ -9,21 +9,17 @@
 1515200030
 #Diogo Duarte
 #Felipe Guerreiro de Mello 1315120052
-#Faça um Programa que peça dois números e imprima o maior deles. 
+#Criar um programa que receba três medidas e indique o perímetro do triângulo.
+#Se não for possível, calcular o trapézio tendo a e b como bases e c como altura
 #-------------------------------------------------------------------------------------
 
-a = float(input("digite um valor"))
-
-b = float(input("digite outro valor"))
-
-if a>b:
-
-    print(a, "é maior que" ,b)
-
+a = float(input("digite uma medida"))
+b = float(input("digite uma medida"))
+c = float(input("digite uma medida"))
+sep = (a+b+c)/2
+if sep < a or sep < b or sep < c:
+    sep = (a+b)*c
+    print("Area = " a+b+c)
 else:
-
-    if b>a:
-        print(b, "é maior que", a)
-    else:
-
-        print(b, "e", a, "são iguais")
+    sep*=2
+    print("Perimetro =" (a+b)*c)

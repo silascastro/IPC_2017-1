@@ -9,21 +9,10 @@
 1515200030
 #Diogo Duarte
 #Felipe Guerreiro de Mello 1315120052
-#Faça um Programa que peça dois números e imprima o maior deles. 
+#Criar um programa que receba dois valores e mostre a sua soma
 #-------------------------------------------------------------------------------------
 
-a = float(input("digite um valor"))
-
-b = float(input("digite outro valor"))
-
-if a>b:
-
-    print(a, "é maior que" ,b)
-
-else:
-
-    if b>a:
-        print(b, "é maior que", a)
-    else:
-
-        print(b, "e", a, "são iguais")
+a = int(input("digite um valor: "))
+b = int(input("digite outro valor: "))
+SOMA = a+b
+print ("SOMA =", SOMA)
