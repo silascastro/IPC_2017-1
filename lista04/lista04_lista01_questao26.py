@@ -23,7 +23,7 @@
 #
 # -------------------------------------------------------------------------------------- 
 
-liters = int(input("Informa o número de litros vendidos: "));
+liters = int(input("Informe o número de litros vendidos: "));
 fuel_type = input("Selecione o tipo de combustível: \nA - Álcool \nG - Gasolina\n")
 
 if fuel_type == "A":
