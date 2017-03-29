@@ -1,27 +1,27 @@
 #--------------------------------------------------------------------------
-#IntroduÁ„o a ProgramaÁ„o de Computadores - IPC
+#Introdu√ß√£o a Programa√ß√£o de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 #
-#Gabriel Barroso da Silva Lima 1715310011
-#Felipe Eduardo Silva de Almeida 1715310031
-#Frederico Victor Alfaia Rodrigues 
-1515200030
-#Diogo Duarte
-#Felipe Guerreiro de Mello 1315120052
-#As OrganizaÁıes Tabajara resolveram dar um aumento de sal·rio aos seus colaboradores e lhe contraram para desenvolver o programa que calcular· os reajustes.
-#    FaÁa um programa que recebe o sal·rio de um colaborador e o reajuste segundo o seguinte critÈrio, baseado no sal·rio atual:
-#    sal·rios atÈ R$ 280,00 (incluindo) : aumento de 20%
-#    sal·rios entre R$ 280,00 e R$ 700,00 : aumento de 15%
-#    sal·rios entre R$ 700,00 e R$ 1500,00 : aumento de 10%
-#    sal·rios de R$ 1500,00 em diante : aumento de 5% ApÛs o aumento ser realizado, informe na tela:
-#    o sal·rio antes do reajuste;
+# Diogo Duarte
+# Felipe Eduardo Silva de Almeida   1715310031
+# Felipe Guerreiro de Mello         1315120052
+# Frederico Victor Alfaia Rodrigues 1515200030
+# Gabriel Barroso da Silva Lima     1715310011
+#
+#As Organiza√ß√µes Tabajara resolveram dar um aumento de sal√°rio aos seus colaboradores e lhe contraram para desenvolver o programa que calcular√° os reajustes.
+#    Fa√ßa um programa que recebe o sal√°rio de um colaborador e o reajuste segundo o seguinte crit√©rio, baseado no sal√°rio atual:
+#    sal√°rios at√© R$ 280,00 (incluindo) : aumento de 20%
+#    sal√°rios entre R$ 280,00 e R$ 700,00 : aumento de 15%
+#    sal√°rios entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+#    sal√°rios de R$ 1500,00 em diante : aumento de 5% Ap√≥s o aumento ser realizado, informe na tela:
+#    o sal√°rio antes do reajuste;
 #    o percentual de aumento aplicado;
 #    o valor do aumento;
-#    o novo sal·rio, apÛs o aumento.
+#    o novo sal√°rio, ap√≥s o aumento.
 #-------------------------------------------------------------------------------------
 
-sal1 = float(input("digite um sal·rio"))
+sal1 = float(input("digite um sal√°rio"))
 
 if sal1 <= 280:
 
@@ -53,6 +53,6 @@ else:
 
 dif = sal2 - sal1
 
-print("sal·rio anterior: R$", sal1, "reais || sal·rio atual: R$", sal2, "reais")
+print("sal√°rio anterior: R$", sal1, "reais || sal√°rio atual: R$", sal2, "reais")
 
 print("percentual de aumento aplicado: ", per,"% || valor do aumento: R$", dif, "reais")
