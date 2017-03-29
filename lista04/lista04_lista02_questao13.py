@@ -16,6 +16,10 @@ a = int(input())
 b = int(input())
 c = int(input())
 
-maiorab = [a, b, c]
+higher = a
+if b > higher:
+  higher = b
+if c > higher:
+  higher = c
 
-print (max(maior), "eh o maior")
+print (higher, "eh o maior")
