@@ -14,10 +14,10 @@
 
 nums = (input().split())
 a,b,c,d = nums
-a = float(a)
-b = float(b)
-c = float(c)
-d = float(d)
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
 
 if b > c and d > a:
 	if c+d > a+b:
