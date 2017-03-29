@@ -1,21 +1,12 @@
 #--------------------------------------------------------------------------
-
 # Universidade do Estado do Amazonas - UEA
-
 # Prof. Jucimar Jr
-
 #
-
 #Gabriel Barroso da Silva Lima 1715310011
-
 #Felipe Eduardo Silva de Almeida 1715310031
-
 #Frederico Victor Alfaia Rodrigues 1515200030
-
 #Diogo Duarte
-
 #Felipe Guerreiro de Mello 1315120052
-
 #Faça um Programa que peça dois números e imprima o maior deles. 
 #O Hipermercado Tabajara está com uma promoção de carnes que é imperdível. Confira:
 #
@@ -23,9 +14,7 @@
 #    File Duplo      R$ 4,90 por Kg          R$ 5,80 por Kg
 #    Alcatra         R$ 5,90 por Kg          R$ 6,80 por Kg
 #    Picanha         R$ 6,90 por Kg          R$ 7,80 por Kg
-
 #    Para atender a todos os clientes, cada cliente poderá levar apenas um dos tipos de carne da #promoção, porém não há limites para a quantidade de carne por cliente. Se compra for feita no #cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total a compra. Escreva um #programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, #contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, #valor do desconto e valor a pagar. 
-
 #-------------------------------------------------------------------------------------
 
 carne = int(input("1 - File Duplo | 2 - Alcatra | 3 - Picanha"))
