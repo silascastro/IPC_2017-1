@@ -15,12 +15,13 @@
 #Saída:
 #Imprima por extenso o nome do mês correspondente ao número existente na entrada, com a primeira letra em maiúscula.
 #-----------------------------------------------------------------------------------------------------------------------
+
 month = int(input())
 
-x = ["January",   "February", "March",    "April",
+month_list = ["January",   "February", "March",    "April",
      "May",       "June",     "July",     "August",
      "September", "October",  "November", "December"]
-print(x[month-1])
+print(month_list[month-1])
 
 
 
