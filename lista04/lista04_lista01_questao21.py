@@ -22,3 +22,11 @@
 # uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
 #  ----------------------------------------------------------
 
+# Parâmetros inicias para o funcionamento do código
+sake = int(input("Digite o valor do saque: "))
+rest100 = sake % 100
+rest50 = rest100 % 50
+rest10 = rest50 % 10
+rest5 = rest10 % 5
+rest1 = rest5 % 1
+
