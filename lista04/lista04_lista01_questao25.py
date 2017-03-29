@@ -18,13 +18,13 @@
 
 print("DIGITE 1 PARA(SIM) OU DIGITE (0) PARA NAO")
 
-p1 = int(input("TELEFONOU PARA A VITIMA?"))
-p2 = int(input("ESTEVE NO LOCAL DO CRIME?"))
-p3 = int(input("MORA PERTO DA VITINMA?"))
-p4 = int(input("DEVIA PARA A VITIMA?"))
-p5 = int(input("JA TRABALHOU PARA A VITIMA?"))
+resposta1 = int(input("TELEFONOU PARA A VITIMA?"))
+resposta2 = int(input("ESTEVE NO LOCAL DO CRIME?"))
+respota3 = int(input("MORA PERTO DA VITINMA?"))
+resposta4 = int(input("DEVIA PARA A VITIMA?"))
+resposta5 = int(input("JA TRABALHOU PARA A VITIMA?"))
 
-soma = (p1+ p2+p3+p4+p5)
+soma = (resposta1+resposta2+resposta3+resposta4+resposta5)
 
 if soma == 2 :
     print("suspeito")
