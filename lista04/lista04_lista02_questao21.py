@@ -12,59 +12,59 @@
 #o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100,50,20,
 #10,5,2.As moedas possíveis são de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a relação de notas necessárias.
 #----------------------------------------------------------------------------------------------------------------------#
-N = float(input())
+money = float(input())
 
-if 0 <= N <= 1000000.00:
-  A = N//100
-  N = N - (A * 100)
+if 0 <= money <= 1000000.00:
+  one_hundred_reals = money//100
+  money = money - (one_hundred_reals * 100)
 
-  B = N//50
-  N = N - (B * 50)
+  fifty_reals = money//50
+  money = money - (fifty_reals * 50)
 
-  C = N//20
-  N = N - (C * 20)
+  twent_reals = money//20
+  money = money - (twent_reals * 20)
 
-  D = N//10
-  N = N - (D * 10)
+  ten_reals = money//10
+  money = money - (ten_reals * 10)
 
-  E = N//5
-  N = N - (E *5)
+  five_reals = money//5
+  money = money - (five_reals *5)
 
-  F = N//2
-  N = N - (F * 2)
+  two_reals = money//2
+  money = money - (two_reals * 2)
 
-  G = N//1
-  N = N - (G * 1)
+  one_real = money//1
+  money = money - (one_real * 1)
 
-  H = N//0.50
-  N = N - (H * 0.50)
+  fifty_cents = money//0.50
+  money = money - (fifty_cents * 0.50)
 
-  I = N//0.25
-  N = N - (I * 0.25)
+  twenty_five_cents = money//0.25
+  money = money - (twenty_five_cents * 0.25)
 
-  J = N//0.10
-  N = N - (J * 0.10)
+  ten_cents = money//0.10
+  money = money - (ten_cents * 0.10)
 
-  K = N//0.05
-  N = N - (K * 0.05)
+  five_cents = money//0.05
+  money = money - (five_cents * 0.05)
 
-  L = N//0.01
-  N = N - (L * 0.01)
+  one_cent = money//0.01
+  money = money - (one_cent * 0.01)
 
 print('NOTAS:')
-print('%.0f nota(s) de R$ 100.00' % A)
-print('%.0f nota(s) de R$ 50.00' % B)
-print('%.0f nota(s) de R$ 20.00' % C)
-print('%.0f nota(s) de R$ 10.00' % D)
-print('%.0f nota(s) de R$ 5.00' % E)
-print('%.0f nota(s) de R$ 2.00' % F)
+print('%.0f nota(s) de R$ 100.00' % one_hundred_reals)
+print('%.0f nota(s) de R$ 50.00' % fifty_reals)
+print('%.0f nota(s) de R$ 20.00' % twent_reals)
+print('%.0f nota(s) de R$ 10.00' % ten_reals)
+print('%.0f nota(s) de R$ 5.00' % five_reals)
+print('%.0f nota(s) de R$ 2.00' % two_reals)
 print('MOEDAS:')
-print('%.0f moeda(s) de R$ 1.00' % G)
-print('%.0f moeda(s) de R$ 0.50' % H)
-print('%.0f moeda(s) de R$ 0.25' % I)
-print('%.0f moeda(s) de R$ 0.10' % J)
-print('%.0f moeda(s) de R$ 0.05' % K)
-print('%.0f moeda(s) de R$ 0.01' % L)
+print('%.0f moeda(s) de R$ 1.00' % one_real)
+print('%.0f moeda(s) de R$ 0.50' % fifty_cents)
+print('%.0f moeda(s) de R$ 0.25' % twenty_five_cents)
+print('%.0f moeda(s) de R$ 0.10' % ten_cents)
+print('%.0f moeda(s) de R$ 0.05' % five_cents)
+print('%.0f moeda(s) de R$ 0.01' % one_cent)
 
 
 
