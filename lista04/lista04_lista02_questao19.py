@@ -13,7 +13,7 @@
 # em uma fábrica, e informá-lo expresso em horas: minutos: segundos.
 #------------------------------------------------------------------------------
 
-time = int(input())
+time = int(input("Digite o tempo em segundos: "))
 hour = time//3600
 minutes = int((((time/3600)-hour)*60)//1)
 seconds = round((((((time/3600)-hour)*60)-(((time/3600)-hour)*60)//1))*60)
