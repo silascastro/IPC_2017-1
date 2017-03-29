@@ -16,6 +16,6 @@ a = int(input())
 b = int(input())
 c = int(input())
 
-MaiorAB = [a, b, c]
+maiorab = [a, b, c]
 
-print (max(MaiorAB), "eh o maior")
+print (max(maior), "eh o maior")
