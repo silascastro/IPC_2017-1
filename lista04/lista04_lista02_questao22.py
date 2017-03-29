@@ -17,7 +17,11 @@
 #Mostre a respectiva mensagem após a validação dos valores.                                                             
 #-----------------------------------------------------------------------------------------------------------------------
                                                                                                                         
-a, b, c, d = input().split()
+a = input() 
+b = input()
+c = input()
+d = input()
+
 A = float(a)
 B = float(b)
 C = float(c)
