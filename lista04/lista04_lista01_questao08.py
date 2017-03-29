@@ -7,18 +7,18 @@
 # Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre pelo mais barato.
 
 
-c = input('write the price of the first product: R$ ')
-c = int(c)
-g = input('write de price of the second product: R$ ')
-g = int(g)
-t = input('write the price of the third product: R$ ')
-t = int(t)
+x = input('write the price of the first product: R$ ')
+x = int(x)
+y = input('write de price of the second product: R$ ')
+y = int(y)
+z = input('write the price of the third product: R$ ')
+z = int(z)
 
-if c < g < t  or c < t < g and c:
+if x < y < z  or x < z < y and x:
     print('the first is the cheapest product, so buy it')
-elif g < c < t or g < t < c:
+elif y < x < z or y < z < x:
     print('the second is the cheapest product, so buy it')
-elif t < c < g or t < g < c:
+elif z < x < y or z < y < x:
     print('The third is the cheapest product, so buy it')
 else:
     print('all products have the same price')
