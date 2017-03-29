@@ -16,7 +16,7 @@
 # Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
 #----------------------------------------------------------------------------------
 
-x , y = input().split(' ')
+x , y = input().split()
 x = float(x)
 y = float(y)
 
