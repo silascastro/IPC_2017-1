@@ -8,6 +8,7 @@
 # Judá Salazar Braga                    1515200050
 # Kethelen Tamara Braga Barbosa         1525212002
 # Lucas Gabriel Silveira                1715310053
+# Silas Castro de Mendonça              1715310066
 #Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro
 #valor deve aparecer valor inválido. .
 
