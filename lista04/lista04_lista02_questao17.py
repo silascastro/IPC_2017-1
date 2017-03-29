@@ -11,8 +11,8 @@
 #Criar um programa que indique quantos litros sao necessários para realizar uma viagem
 #-------------------------------------------------------------------------------------
 
-timetrip=float(input("Informe o tempo de viagem: "))
-speed=float(input("Informe a velocidade: "))
-distance=speed*timetrip
-liters= distance/12
+timetrip = float(input("Informe o tempo de viagem: "))
+speed = float(input("Informe a velocidade: "))
+distance = speed*timetrip
+liters = distance/12
 print("São necessarios %.3f " %liters,"litros")
