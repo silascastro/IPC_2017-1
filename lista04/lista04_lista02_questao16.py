@@ -9,6 +9,6 @@
 #Marcus Vinicius Paes da Silva Santos 1515070060
 #Matheus de Oliveira Marques 1515310514
 #--------------------------------------------------------
-km = int(input("Digite a distancia "))
-time = km*2
-print(time,"minutos")
+distance = int(input("Digite a distância "))
+time = distance*2
+print(time,'minutos')
