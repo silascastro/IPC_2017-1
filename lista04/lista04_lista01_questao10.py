@@ -22,3 +22,5 @@ else:
     else:
         if shift == "N" or shift == "n":
             print("Boa Noite!")
+        else:
+            print("Valor inválido!!")
