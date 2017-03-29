@@ -30,3 +30,9 @@ rest10 = rest50 % 10
 rest5 = rest10 % 5
 rest1 = rest5 % 1
 
+if 600 >= sake >= 10:
+    if rest100 > 0 or sake % 100 == 0:
+        multiple100 = (sake - rest100)
+        numberNotes100 = (multiple100/100)
+        print("quantidade de notas de 100 foi: ", numberNotes100)
+    
