@@ -9,15 +9,13 @@
 # Wilbert Luís Evangelista Marins   1715310055
 # Yuri Leandro de Aquino Silva      1615100462
 #
-# Faça um programa que lê o nome de um vendedor, seu salário fixo e o
-# total da venda feito por ele / ela mesma no mês (em dinheiro).
-# Considerando que este vendedor recebe 15% sobre todos os produtos,
-# escrever o salário final (total) deste vendedor no final 
-# do mês, com duas casas decimais.
+# Leia a hora inicial e a hora final de um jogo. A seguir calcule a
+# duração do jogo, sabendo que o mesmo pode começar em um dia e terminar
+# em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
 #------------------------------------------------------------------------------
 
-name = input()
-salary = float(input())
-sales_amount = float(input())
-final_salary = salary+((15/100)*sales_amount)
-print("TOTAL = R$ {0:.2f}".format(final_salary))
+begin, end = map(int, input().split())
+total_time = 24 - begin + end
+total_time %= 24
+if (total_time == 0): time = 24
+print('O JOGO DUROU %d HORA(S)' %total_time)

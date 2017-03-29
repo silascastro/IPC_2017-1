@@ -3,7 +3,7 @@
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 #
-# Diogo Duarte
+# Diogo Roberto Duarte da Costa     1715310056
 # Felipe Eduardo Silva de Almeida   1715310031
 # Felipe Guerreiro de Mello         1315120052
 # Frederico Victor Alfaia Rodrigues 1515200030
