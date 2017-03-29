@@ -17,35 +17,28 @@
 #-----------------------------------------------------------------------------------------------------------------------
 
 a, b, c = input().split()
-A = int(a)
-B = int(b)
-C = int(c)
+a = int(a)
+b = int(b)
+c = int(c)
 
-if (A > B and A > C) and (B > C):
-    print(C)
-    print(B)
-    print(A)
-if (A > B and A > C) and (C > B):
-    print(B)
-    print(C)
-    print(A)
-if (B > C and B > A) and (A > C):
-    print(C)
-    print(A)
-    print(B)
-if (B > C and B > A) and (C > A):
-    print(A)
-    print(C)
-    print(B)
-if (C > B and C > A) and (A > B):
-    print(B)
-    print(A)
-    print(C)
-if (C > B and C > A) and (B > A):
-    print(A)
-    print(B)
-    print(C)
+lower = a
+if b < lower:
+    lower = b
+if c < lower:
+    lower = c
+
+higher = a
+if b > higher:
+    higher = b
+if c > higher:
+    higher = c
+
+mid = a + b + c - higher - lower
+
+print(lower)
+print(mid)
+print(higher)
 print()
-print(A)
-print(B)
-print(C)
+print(a)
+print(b)
+print(c)
