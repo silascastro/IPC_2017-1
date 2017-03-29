@@ -14,6 +14,7 @@
 side1=float(input("Digite o valor do lado"))
 side2=float(input("Digite outro valor do lado"))
 side3=float(input("Digite mais um valor do lado"))
+
 if side1+side2>side3:
     print(" É possivel formar um triangulo ")
 else:
