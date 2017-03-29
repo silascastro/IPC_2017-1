@@ -15,7 +15,7 @@ A = int(input('Digite um número para A '))
 B = int(input('Digite um número para B '))
 C = int(input('Digite um número para C '))
 D = int(input('Digite um número para D '))
-DIFERENCA = (A*B-C*D)
+difference = (A*B-C*D)
 
-print ('DIFERENCA =', DIFERENCA)
+print ('DIFERENCA =', difference)
 
