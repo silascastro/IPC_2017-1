@@ -15,5 +15,7 @@
 a = int(input("digite um valor: "))
 b = int(input("digite outro valor: "))
 c = int(input("digite mais um valor: "))
+
 MaiorAB = [a, b, c]
+
 print (max(MaiorAB), "eh o maior")
