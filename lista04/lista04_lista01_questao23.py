@@ -8,7 +8,7 @@
 # Judá Salazar Braga                    1515200050
 # Kethelen Tamara Braga Barbosa         1525212002
 # Lucas Gabriel Silveira                1715310053
-
+# Faça um Programa que peça um número e informe se o número é inteiro ou decimal. Dica: utilize uma função de arredondamento.
 
 
 num = float(input("Digite o numero à ser analisado: "))
