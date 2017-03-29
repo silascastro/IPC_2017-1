@@ -16,16 +16,11 @@
 #Saída:                                                                                                                  
 #Mostre a respectiva mensagem após a validação dos valores.                                                             
 #-----------------------------------------------------------------------------------------------------------------------
-                                                                                                                        
-a = input() 
-b = input()
-c = input()
-d = input()
-
-A = float(a)
-B = float(b)
-C = float(c)
-D = float(d)
+                                                                                    
+A = float(input())
+B = float(input())
+C = float(input())
+D = float(input())
 
 if(B > C and D > C and C + D > A + B and C > 0 or D > 0 and (A / 2) == 0):
     print('Valores aceitos')
