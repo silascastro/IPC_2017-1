@@ -16,10 +16,9 @@
 a = float(input())
 b = float(input())
 c = float(input())
-sep = (a+b+c)/2
-if sep < a or sep < b or sep < c:
-    sep = (a+b)*c
+perimeter = (a+b+c)/2
+if perimeter < a or perimeter < b or perimeter < c:
+    perimeter = (a+b) * c
     print("Area = " a+b+c)
 else:
-    sep*=2
-    print("Perimetro =" (a+b)*c)
+    print("Perimetro =", perimeter)
