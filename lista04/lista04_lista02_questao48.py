@@ -5,20 +5,21 @@
 # Prof. Jucimar Jr
 # Tiago Ferreira Aranha                     1715310047
 # Victor Hugo de Oliveira Carreira          1715310063
-# 
+# Ulisses Antonio Antonino da Costa         1515090555  
+#
 # URI Online Judge | 1048
 # Salary Increase
 # --------------------------------------------------------------------------------------
 
 salary = float(input())
 
-if 0 < salary <= 400.00:
+if (0 < salary <= 400.00):
     increase_percentual = 0.15
-elif 400.01 < salary <= 800.00:
+elif (400.01 < salary <= 800.00):
     increase_percentual = 0.12
-elif 800.01 < salary <= 1200.00:
+elif (800.01 < salary <= 1200.00):
     increase_percentual = 0.10
-elif 1200.01 < salary <= 2000.00:
+elif (1200.01 < salary <= 2000.00):
     increase_percentual = 0.07
 else:
     increase_percentual = 0.04
