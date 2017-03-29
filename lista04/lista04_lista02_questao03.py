@@ -12,8 +12,8 @@
 # Criar um programa que receba dois valores e mostre a sua soma
 #-------------------------------------------------------------------------------------
 
-a = int(input("digite um valor: "))
-b = int(input("digite outro valor: "))
+a = int(input())
+b = int(input())
 SOMA = a+b
 
 print ("SOMA =", SOMA)
