@@ -10,21 +10,21 @@
 #Matheus de Oliveira Marques 1515310514
 #-------------------------------------------
 
-n1= float(input("Digite sua primeira nota "))
-n2=float(input("Digite sua segunda nota  "))
-m=(n1+n2)/2
+number1 = float(input("Digite sua primeira nota "))
+number2 = float(input("Digite sua segunda nota  "))
+media = (n1+n2)/2
 
-if m >9 and m < 10:
+if media >9 and media < 10:
     print("Aprovado,conceito A")
-if m > 7.5 and m < 9:
+if media > 7.5 and media < 9:
     print("Aprovado,conceito B")
-if m > 6 and m < 7.5:
+if media > 6 and media < 7.5:
     print("Aprovado,conceito C")
-if m > 4 and m < 6:
+if media > 4 and media < 6:
     print("Reprovado,conceito D")
-if m > 0 and m < 4:
+if media > 0 and media < 4:
     print("Reprovado,conceito E")
 
-print("Sua primeira nota foi ",n1)
-print("Sua segunda nota foi ",n2)
-print("Sua media foi ",m)
+print("Sua primeira nota foi ",number1)
+print("Sua segunda nota foi ",number2)
+print("Sua media foi ",media)
