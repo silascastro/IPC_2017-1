@@ -4,20 +4,16 @@
 # Prof. Jucimar Jr.
 #
 # Vitor Summer Oliveira Pantaleão   1715310042
-# Vítor Simões Azevedo          1715310025
-# Wesley da Silva Rocha         1715310026
+# Vítor Simões Azevedo              1715310025
+# Wesley da Silva Rocha             1715310026
 # Wilbert Luís Evangelista Marins   1715310055
 # Yuri Leandro de Aquino Silva      1615100462
 #
-# Faça um programa que lê o nome de um vendedor, seu salário fixo e o total da venda feito por ele / ela mesma no mês (em dinheiro).
-#Considerando que este vendedor recebe 15% sobre todos os produtos vendidos, escrever o salário final (total) deste vendedor no final 
-#do mês, com duas casas decimais.
-#
-#Entrada:
-#O arquivo de entrada contém um texto (nome do empregado), e dois valores de precisão dupla, que é o salário do vendedor eo valor total 
-#vendido por ele / ela.
-#Saída:
-#Imprima o salário total do vendedor, de acordo com o exemplo dado.
+# Faça um programa que lê o nome de um vendedor, seu salário fixo e o
+# total da venda feito por ele / ela mesma no mês (em dinheiro).
+# Considerando que este vendedor recebe 15% sobre todos os produtos,
+# escrever o salário final (total) deste vendedor no final 
+# do mês, com duas casas decimais.
 #------------------------------------------------------------------------------
 
 name = input()
