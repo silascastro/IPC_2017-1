@@ -51,4 +51,6 @@ if 600 >= sake >= 10:
         multiple5 = (rest5 - rest1)
         numberNotes1 = (multiple5/1)
         print("quantidade de notas de 1 foi: ", numberNotes1)
+else:
+    print("O valor digitado não é aceito para saque")  
 
