@@ -43,5 +43,9 @@ if 600 >= sake >= 10:
         multiple10 = (rest50 - rest10)
         numberNotes10 = (multiple10/10)
         print("quantidade de notas de 10 foi: ", numberNotes10)
+    if rest5 > 0 or sake % 5 == 0:
+        multiple5 = (rest10 - rest5)
+        numberNotes5 = (multiple5/5)
+        print("quantidade de notas de 5 foi: ", numberNotes5)
     
     
