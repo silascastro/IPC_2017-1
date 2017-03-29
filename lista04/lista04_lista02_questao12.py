@@ -24,7 +24,6 @@
 #-----------------------------------------------------------------------------------------------------------------------
 
 value = input().split()
-
 a, b, c = value
 pi = 3.14159
 
@@ -33,7 +32,6 @@ circle = pi*(float(c)*float(c))
 trapezius = float(c)*(float(a)+float(b)) / 2
 square = float(b)*float(b)
 rectangle = float(a)*float(b)
-
 
 print("TRIANGULO: %0.3f"%triangle)
 print("CIRCULO: %0.3f"%circle)
