@@ -14,6 +14,7 @@
 # sobre um dos eixos cartesianos ou na origem (x = y = 0).
 # Se o ponto estiver na origem, escreva a mensagem “Origem”.
 # Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
+#----------------------------------------------------------------------------------
 
 x , y = input().split(' ')
 x = float(x)
