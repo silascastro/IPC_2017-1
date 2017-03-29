@@ -1,56 +1,33 @@
-# ----------------------------------------------------------
-# Introdu√ß√£o a Programa√ß√£o de Computadores - IPC
+#--------------------------------------------------------------------------
+#IntroduÁ„o a ProgramaÁ„o de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 #
-# Felipe Eduardo Silva de Almeida	  1715310031
-# Felipe Guerreiro Federico Vitor
-# Federico Vitor
-# Gabriel Alves
-# Gabriel Barroso
-#
-# Fa√ßa um Programa para um caixa eletr√¥nico. O programa dever√° perguntar ao
-# usu√°rio o valor do saque e depois informar quantas notas de cada valor ser√£o
-# fornecidas. As notas dispon√≠veis ser√£o as de 1, 5, 10, 50 e 100 reais. O valor
-# m√≠nimo √© de 10 reais e o m√°ximo de 600 reais. O programa n√£o deve se preocupar
-# com a quantidade de notas existentes na m√°quina.
-#
-# Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100,
-# uma nota de 50, uma nota de 5 e uma nota de 1;
-#
-# Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece tr√™s notas de 100,
-# uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
-#  ----------------------------------------------------------
+#Gabriel Barroso da Silva Lima 1715310011
+#Felipe Eduardo Silva de Almeida 1715310031
+#Frederico Victor Alfaia Rodrigues 
+1515200030
+#Diogo Duarte
+#Felipe Guerreiro de Mello 1315120052
+#FaÁa um Programa para um caixa eletrÙnico. O programa dever· perguntar ao usu·rio a valor do saque e depois informar 
+#quantas notas de cada valor ser„o fornecidas. As notas disponÌveis ser„o as de 1, 5, 10, 50 e 100 reais. O valor mÌnimo 
+#È de 10 reais e o m·ximo de 600 reais. O programa n„o deve se preocupar com a quantidade de notas existentes na m·quina. 
+#-------------------------------------------------------------------------------------
 
-# Par√¢metros inicias para o funcionamento do c√≥digo
-sake = int(input("Digite o valor do saque: "))
-rest100 = sake % 100
-rest50 = rest100 % 50
-rest10 = rest50 % 10
-rest5 = rest10 % 5
-rest1 = rest5 % 1
-
-if 600 >= sake >= 10:
-    if rest100 > 0 or sake % 100 == 0:
-        multiple100 = (sake - rest100)
-        numberNotes100 = (multiple100/100)
-        print("quantidade de notas de 100 foi: ", numberNotes100)
-    if rest50 > 0 or sake % 50 == 0:
-        multiple50 = (rest100 - rest50)
-        numberNotes50 = (multiple50/50)
-        print("quantidade de notas de 50 foi: ", numberNotes50)
-    if rest10 > 0 or sake % 10 == 0:
-        multiple10 = (rest50 - rest10)
-        numberNotes10 = (multiple10/10)
-        print("quantidade de notas de 10 foi: ", numberNotes10)
-    if rest5 > 0 or sake % 5 == 0:
-        multiple5 = (rest10 - rest5)
-        numberNotes5 = (multiple5/5)
-        print("quantidade de notas de 5 foi: ", numberNotes5)
-    if rest1 > 0 or sake % 1 == 0:
-        multiple5 = (rest5 - rest1)
-        numberNotes1 = (multiple5/1)
-        print("quantidade de notas de 1 foi: ", numberNotes1)
-else:
-    print("O valor digitado n√£o √© aceito para saque")  
-
+saq = float(input("valor do saque: "))
+while saq < 10 or saq > 600:
+    saq = float(input("valor inv·lido, digite um valor entre R$10 e R$600: "))
+n100 = int(saq / 100)
+saq = saq - (n100 * 100)
+n50 = saq / 50
+saq = saq - (n50 * 50)
+n10 = saq / 10
+saq = saq - (n10 * 10)
+n5 = saq / 5
+saq = saq - (n5 * 5)
+print ("ser„o necess·rias: ")
+print (n100, "nota(s) de R$100")
+print (n50, "nota(s) de R$50")
+print (n10, "nota(s) de R$10")
+print (n50, "nota(s) de R$5")
+print (int(saq), "nota(s) de R$1")
