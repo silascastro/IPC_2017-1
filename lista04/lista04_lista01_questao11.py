@@ -3,7 +3,7 @@
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 #
-# Diogo Duarte
+# Diogo Roberto Duarte da Costa     1715310056
 # Felipe Eduardo Silva de Almeida   1715310031
 # Felipe Guerreiro de Mello         1315120052
 # Frederico Victor Alfaia Rodrigues 1515200030
@@ -24,37 +24,20 @@
 #-------------------------------------------------------------------------------------
 
 salaryInitial = float(input("digite um salário"))
-
 if salaryInitial <= 280:
-
     salaryFinal = salaryInitial * 1.2
-
     percentage = 20
-
 else:
-
     if salaryInitial <= 780:
-
         salaryFinal = salaryIniital * 1.15
-
         percentage = 15
-
     else:
-
         if salaryInitial < 1500:
-
             salaryFinal = salaryInitial * 1.1
-
             percentage = 10
-
         else:
-
             salaryFinal = salaryInitial * 1.05
-
             percentage = 5
-
 difference = salaryFinal - salaryInitial
-
 print("Salário anterior: R$", salaryInitial, " reais || Salário atual: R$", salaryFinal, " reais.")
-
 print("Percentual de aumento aplicado: ", percentage, "% || Valor do aumento: R$", difference, " reais")
