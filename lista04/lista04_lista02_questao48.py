@@ -4,7 +4,8 @@
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 # Tiago Ferreira Aranha                     1715310047
-#
+# Victor Hugo de Oliveira Carreira          1715310063
+# 
 # URI Online Judge | 1048
 # Salary Increase
 # --------------------------------------------------------------------------------------
