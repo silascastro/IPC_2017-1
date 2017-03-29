@@ -20,9 +20,10 @@
 #No exemplo o valor da hora é 5 e a quantidade de hora é 220.
 #-----------------------------------------------------------------------------------------------------------------------
 
-x=float(input('horas trabalhadas'))
-y=float(input('ganhos por hora'))
-SalarioBruto=x*y
+x = float(input('horas trabalhadas'))
+y = float(input('ganhos por hora'))
+SalarioBruto = x*y
+
 print('Salario Bruto',SalarioBruto)
 Sindicato= SalarioBruto*0.03
 print('Sindicato', Sindicato)
@@ -31,6 +32,7 @@ print('FGTS', FGTS)
 IR5=5%SalarioBruto
 IR10=10%SalarioBruto
 IR20=20%SalarioBruto
+
 if SalarioBruto<=900:
     print('Salario Liquido', SalarioBruto-Sindicato, 'IR Isento')
 else:
