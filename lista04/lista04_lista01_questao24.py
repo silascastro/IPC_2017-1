@@ -1,3 +1,12 @@
+# --------------------------------------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
+# Universidade do Estado do Amazonas - UEA
+# Prof. Jucimar Jr
+# Tiago Ferreira Aranha                     1715310047
+# Ulisses Antonio Antonino da Costa         1515090555
+# Rodrigo Duarte de Souza                   1115140049
+# Victor Hugo de Oliveira Carreira          1715310063
+#
 #QUESTAO_24
 #Faça um Programa que leia 2 números e em seguida pergunte ao usuário
 # qual operação ele deseja realizar. O resultado
