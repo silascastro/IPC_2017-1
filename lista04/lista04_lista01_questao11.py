@@ -30,7 +30,7 @@ if salaryInitial <= 280:
     percentage = 20
 else:
     
-    if salaryInitial <= 780:
+    if salaryInitial <= 700:
         salaryFinal = salaryIniital * 1.15
         percentage = 15
     else:
