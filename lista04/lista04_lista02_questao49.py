@@ -22,6 +22,7 @@
 animal_type1 = input()
 animal_type2 = input()
 animal_type3 = input()
+
 if(animal_type1 == "vertebrado"):
 	if(animal_type2 == "ave"):
 		if(animal_type3 == "carnivoro"):
