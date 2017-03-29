@@ -9,25 +9,47 @@
 # Frederico Victor Alfaia Rodrigues 1515200030
 # Gabriel Barroso da Silva Lima     1715310011
 #
-#Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao usuário a valor do saque e depois informar 
-#quantas notas de cada valor serão fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor mínimo 
-#é de 10 reais e o máximo de 600 reais. O programa não deve se preocupar com a quantidade de notas existentes na máquina. 
-#-------------------------------------------------------------------------------------
+# Faça um Programa para um caixa eletrônico. O programa deverá perguntar ao
+# usuário o valor do saque e depois informar quantas notas de cada valor serão
+# fornecidas. As notas disponíveis serão as de 1, 5, 10, 50 e 100 reais. O valor
+# mínimo é de 10 reais e o máximo de 600 reais. O programa não deve se preocupar
+# com a quantidade de notas existentes na máquina.
+#
+# Exemplo 1: Para sacar a quantia de 256 reais, o programa fornece duas notas de 100,
+# uma nota de 50, uma nota de 5 e uma nota de 1;
+#
+# Exemplo 2: Para sacar a quantia de 399 reais, o programa fornece três notas de 100,
+# uma nota de 50, quatro notas de 10, uma nota de 5 e quatro notas de 1.
+#  ----------------------------------------------------------
 
-saq = float(input("valor do saque: "))
-while saq < 10 or saq > 600:
-    saq = float(input("valor inválido, digite um valor entre R$10 e R$600: "))
-n100 = int(saq / 100)
-saq = saq - (n100 * 100)
-n50 = saq / 50
-saq = saq - (n50 * 50)
-n10 = saq / 10
-saq = saq - (n10 * 10)
-n5 = saq / 5
-saq = saq - (n5 * 5)
-print ("serão necessárias: ")
-print (n100, "nota(s) de R$100")
-print (n50, "nota(s) de R$50")
-print (n10, "nota(s) de R$10")
-print (n50, "nota(s) de R$5")
-print (int(saq), "nota(s) de R$1")
+# Parâmetros inicias para o funcionamento do código
+sake = int(input("Digite o valor do saque: "))
+rest100 = sake % 100
+rest50 = rest100 % 50
+rest10 = rest50 % 10
+rest5 = rest10 % 5
+rest1 = rest5 % 1
+
+if 600 >= sake >= 10:
+    if rest100 > 0 or sake % 100 == 0:
+        multiple100 = (sake - rest100)
+        numberNotes100 = (multiple100/100)
+        print("quantidade de notas de 100 foi: ", numberNotes100)
+    if rest50 > 0 or sake % 50 == 0:
+        multiple50 = (rest100 - rest50)
+        numberNotes50 = (multiple50/50)
+        print("quantidade de notas de 50 foi: ", numberNotes50)
+    if rest10 > 0 or sake % 10 == 0:
+        multiple10 = (rest50 - rest10)
+        numberNotes10 = (multiple10/10)
+        print("quantidade de notas de 10 foi: ", numberNotes10)
+    if rest5 > 0 or sake % 5 == 0:
+        multiple5 = (rest10 - rest5)
+        numberNotes5 = (multiple5/5)
+        print("quantidade de notas de 5 foi: ", numberNotes5)
+    if rest1 > 0 or sake % 1 == 0:
+        multiple5 = (rest5 - rest1)
+        numberNotes1 = (multiple5/1)
+        print("quantidade de notas de 1 foi: ", numberNotes1)
+else:
+    print("O valor digitado não é aceito para saque")
