@@ -14,6 +14,6 @@
 
 a = int(input())
 b = int(input())
-SOMA = a+b
+sum = a+b
 
-print ("SOMA =", SOMA)
+print ("SOMA =", sum)
