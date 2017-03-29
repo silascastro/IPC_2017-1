@@ -18,19 +18,19 @@
 
 print("DIGITE 1 PARA(SIM) OU DIGITE (0) PARA NAO")
 
-resposta1 = int(input("TELEFONOU PARA A VITIMA?"))
-resposta2 = int(input("ESTEVE NO LOCAL DO CRIME?"))
-respota3 = int(input("MORA PERTO DA VITINMA?"))
-resposta4 = int(input("DEVIA PARA A VITIMA?"))
-resposta5 = int(input("JA TRABALHOU PARA A VITIMA?"))
+phone1 = int(input("TELEFONOU PARA A VITIMA?"))
+phone2 = int(input("ESTEVE NO LOCAL DO CRIME?"))
+phone3 = int(input("MORA PERTO DA VITINMA?"))
+phone4 = int(input("DEVIA PARA A VITIMA?"))
+phone5 = int(input("JA TRABALHOU PARA A VITIMA?"))
 
-soma = (resposta1+resposta2+resposta3+resposta4+resposta5)
+result = (phone1+ phone2+phone3+phone4+phone5)
 
-if soma == 2 :
+if result == 2 :
     print("suspeito")
-elif soma > 2 and soma <= 4:
+elif result > 2 and result <= 4:
     print("cumplice")
-elif soma >= 5:
+elif result >= 5:
     print("culpado")
 else:
     print("ta de boa")
