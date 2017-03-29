@@ -20,8 +20,8 @@
 #com um espaço antes e um espaço depois da igualdade. 
 #O valor deverá ser apresentado com 3 casas após o ponto.
 #----------------------------------------------------------------------------------
-R = float(input())
+radius = float(input())
 pi = 3.14159
-VOLUME = 4/3*pi*R**3
+volume = 4/3*pi*radius**3
 
-print('VOLUME = %.3f' % VOLUME)
+print('VOLUME = %.3f' % volume)
