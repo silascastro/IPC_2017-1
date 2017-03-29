@@ -13,9 +13,9 @@
 # Se não for possível, calcular o trapézio tendo a e b como bases e c como altura
 #-------------------------------------------------------------------------------------
 
-a = float(input("digite uma medida"))
-b = float(input("digite uma medida"))
-c = float(input("digite uma medida"))
+a = float(input())
+b = float(input())
+c = float(input())
 sep = (a+b+c)/2
 if sep < a or sep < b or sep < c:
     sep = (a+b)*c
