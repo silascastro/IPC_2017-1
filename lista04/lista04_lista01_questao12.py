@@ -20,24 +20,33 @@
 #No exemplo o valor da hora é 5 e a quantidade de hora é 220.
 #-----------------------------------------------------------------------------------------------------------------------
 
-X = float(input('horas trabalhadas'))
-Y = float(input('ganhos por hora'))
-SalarioBruto = X * Y
-print ('Salario Bruto',SalarioBruto)
-Sindicato = SalarioBruto * 0.03
-print ('Sindicato', Sindicato)
+x = float(input('horas trabalhadas: '))
+y = float(input('ganhos por hora: '))
+SalarioBruto = x * y
+print ('Salário Bruto: (%f * %f)    R$%f' % x, y, SalarioBruto)
+inss = SalarioBruto * 0.03
+IR5 = 0.05 * SalarioBruto
+IR10 = 0.1 * SalarioBruto
+IR20 = 0.2 * SalarioBruto
+print ('INSS', inss)
 FGTS = SalarioBruto * 0.11
-print ('FGTS', FGTS)
-IR5 = 5% SalarioBruto
-IR10 = 10% SalarioBruto
-IR20 = 20% SalarioBruto
-if SalarioBruto <=900:
-    print('Salario Liquido', SalarioBruto-Sindicato, 'IR Isento')
-else:
-    if 900 <SalarioBruto <1500:
-        print('Salario Liquido', SalarioBruto-Sindicato-IR5, 'IR 5%')
+print ('FGTS (11%): ', FGTS)
+
+if SalarioBruto <= 900:
+    print('IR (Isento)')
+    print('Total de Descontos: ', inss)
+    print('Salario Liquido', SalarioBruto - inss)
+else
+    if SalarioBruto < 1500:
+        print('(-)IR (5%): R$', IR5)
+        print('Total de Descontos: ', IR5 + inss)
+        print('Salario Liquido', SalarioBruto - inss - IR5)
     else:
-        if 1500 <SalarioBruto <2500:
-            print('Salario Liquido', SalarioBruto-Sindicato-IR10, 'IR 10%')
+        if SalarioBruto < 2500:
+            print('(-)IR (10%):  R$', IR10)
+            print('Total de Descontos: ', IR10 + inss)
+            print('Salario Liquido', SalarioBruto - inss - IR10)    
         else:
-            print('Salario Liquido', SalarioBruto-Sindicato-IR20, 'IR 20%')
+            print('(-)IR (20%): R$', IR20)
+            print('Total de Descontos: ', IR20 + inss)
+            print('Salario Liquido', SalarioBruto - Sindicato - IR20)
