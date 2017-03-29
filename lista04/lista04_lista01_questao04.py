@@ -1,17 +1,16 @@
-# ----------------------------------------------------------
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
-# Tiago Ferreira Aranha                     1715310047
-# Ulisses Antonio Antonino da Costa         1515090555
-# Rodrigo Duarte de Souza                   1115140049
-# Victor Hugo de Oliveira Carreira          1715310063
+# Grupo 10
+# Walter Nobre da Silva Conceição 1715310057
 #
-# 04.Faça um Programa que verifique se uma letra digitada é 
-# vogal ou consoante.
-# ----------------------------------------------------------
-word = str(input("digite uma letra qualquer: "))
-if (word == 'a') or (word == 'e') or (word == 'i') or (word == 'o') or (word == 'u'):
-    print("VOGAL! ->", word)
+# Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+
+l = input('write a letter: ')
+
+if l == 'a' or l == 'e' or l == 'i' or l == 'o' or l == 'u':
+    print('the letter is a vowel')
 else:
-    print("CONSOANTE! ->", word)
+    print('the letter is a consonant')
+
+

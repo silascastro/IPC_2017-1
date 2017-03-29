@@ -23,6 +23,7 @@ p2 = int(input("ESTEVE NO LOCAL DO CRIME?"))
 p3 = int(input("MORA PERTO DA VITINMA?"))
 p4 = int(input("DEVIA PARA A VITIMA?"))
 p5 = int(input("JA TRABALHOU PARA A VITIMA?"))
+
 soma = (p1+ p2+p3+p4+p5)
 
 if soma == 2 :
