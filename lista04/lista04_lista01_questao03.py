@@ -15,10 +15,10 @@
 print("Digite M para masculino e F para feminino")
 gender = input("Digite \"M\" ou \"F\": ")
 
-if gender == "M":
+if gender == "M" or gender == "m":
 	print("O gênero digitado foi MASCULINO")
 else:
-	if gender == "F":
+	if gender == "F" or gender == "f":
 		print("O gênero digitado foi FEMININO")
 	else:
 		print("O gênero digitado é INVÁLIDO")
