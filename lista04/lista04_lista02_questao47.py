@@ -14,7 +14,6 @@
 # a soma da partida do jogo
 #--------------------------------------------------------------------------
 
-initial_hour =
 start_hour = float(input('informe a hora inicial'))
 start_minute = int(input('informe o minuto inicial'))
 end_hour = int(input('informe a hora final'))
