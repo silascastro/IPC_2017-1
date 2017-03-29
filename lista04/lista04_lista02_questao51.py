@@ -12,12 +12,14 @@
 # de uma pessoa de Lisarb. Em seguida, calcule e mostre o valor
 # que esta pessoa deve pagar de Imposto de Renda,
 # segundo a tabela abaixo:
-#Renda --------------Imposto
-# de 0 a 2000,00 = isento
-# de 2001,00 a 3000,00 = 0,08
-# de 3001,00 a 4500,00 = 0,18
-# de 4500,00 par acima = 0,28
+
+# Renda                    Imposto
+# de 0 a 2000,00           isento
+# de 2001,00 a 3000,00     0,08
+# de 3001,00 a 4500,00     0,18
+# de 4500,00 par acima     0,28
 #-----------------------------------------------------------------------------
+
 salary = float(input())
 
 if salary <= 2000:
