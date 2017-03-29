@@ -21,8 +21,8 @@ if number1 > number2 and number1 > number3:
 elif number2 > number1 and number2 > number3:
     higher = number2
 elif number3 > number1 and number3 > number2:
-    righer = number3
+    higher = number3
 else:
-    righer = "Impossível informar. Dois ou mais são iguais."
+    higher = "Impossível informar. Dois ou mais são iguais."
 
-print("Maior número: ",righer)
+print("Maior número: ",higher)
