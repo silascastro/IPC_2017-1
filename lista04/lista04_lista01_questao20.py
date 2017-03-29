@@ -26,5 +26,4 @@ else:
     if average >= 7:
         print("Aprovado")
     else:
-        if average < 7:
-            print("Reprovado")
+        print("Reprovado")
