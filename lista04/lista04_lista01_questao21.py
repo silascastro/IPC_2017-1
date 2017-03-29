@@ -33,23 +33,23 @@ rest1 = rest5 % 1
 if 600 >= sake >= 10:
     if rest100 > 0 or sake % 100 == 0:
         multiple100 = (sake - rest100)
-        numberNotes100 = (multiple100/100)
-        print("quantidade de notas de 100 foi: ", numberNotes100)
+        number_notes100 = (multiple100/100)
+        print("quantidade de notas de 100 foi: ", number_notes100)
     if rest50 > 0 or sake % 50 == 0:
         multiple50 = (rest100 - rest50)
-        numberNotes50 = (multiple50/50)
-        print("quantidade de notas de 50 foi: ", numberNotes50)
+        number_notes50 = (multiple50/50)
+        print("quantidade de notas de 50 foi: ", number_notes50)
     if rest10 > 0 or sake % 10 == 0:
         multiple10 = (rest50 - rest10)
-        numberNotes10 = (multiple10/10)
-        print("quantidade de notas de 10 foi: ", numberNotes10)
+        number_notes10 = (multiple10/10)
+        print("quantidade de notas de 10 foi: ", number_notes10)
     if rest5 > 0 or sake % 5 == 0:
         multiple5 = (rest10 - rest5)
-        numberNotes5 = (multiple5/5)
-        print("quantidade de notas de 5 foi: ", numberNotes5)
+        number_notes5 = (multiple5/5)
+        print("quantidade de notas de 5 foi: ", number_notes5)
     if rest1 > 0 or sake % 1 == 0:
         multiple5 = (rest5 - rest1)
-        numberNotes1 = (multiple5/1)
-        print("quantidade de notas de 1 foi: ", numberNotes1)
+        number_notes1 = (multiple5/1)
+        print("quantidade de notas de 1 foi: ", number_notes1)
 else:
     print("O valor digitado não é aceito para saque")
