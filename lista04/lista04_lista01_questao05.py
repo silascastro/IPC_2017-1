@@ -28,5 +28,5 @@ if average >= 7:
     print("Aprovado")
 elif average <7:
     print("Reprovado")
-elif average == 7:
+elif average == 10:
     print ("Aprovado com Distinção")
