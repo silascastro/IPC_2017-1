@@ -14,53 +14,57 @@
 #----------------------------------------------------------------------------------------------------------------------#
 N = float(input())
 
-A = N//100
-N = N - (A * 100)
+if 0 <= N <= 1000000.00:
+  A = N//100
+  N = N - (A * 100)
 
-B = N//50
-N = N - (B * 50)
+  B = N//50
+  N = N - (B * 50)
 
-C = N//20
-N = N - (C * 20)
+  C = N//20
+  N = N - (C * 20)
 
-D = N//10
-N = N - (D * 10)
+  D = N//10
+  N = N - (D * 10)
 
-E = N//5
-N = N - (E *5)
+  E = N//5
+  N = N - (E *5)
 
-F = N//2
-N = N - (F * 2)
+  F = N//2
+  N = N - (F * 2)
 
-G = N//1
-N = N - (G * 1)
+  G = N//1
+  N = N - (G * 1)
 
-H = N//0.5
-N = N - (H * 0.5)
+  H = N//0.50
+  N = N - (H * 0.50)
 
-I = N//0.25
-N = N - (I * 0.25)
+  I = N//0.25
+  N = N - (I * 0.25)
 
-J = N//0.10
-N = N - (J * 0.10)
+  J = N//0.10
+  N = N - (J * 0.10)
 
-K = N//0.05
-N = N - (K * 0.05)
+  K = N//0.05
+  N = N - (K * 0.05)
 
-L = N//0.01
-N = N - (L * 0.01)
+  L = N//0.01
+  N = N - (L * 0.01)
 
-print(A, 'nota(s) de R$ 100.00')
-print(B, ' nota(s) de R$ 50.00')
-print(C, ' nota(s) de R$ 20.00')
-print(D, ' nota(s) de R$ 10.00')
-print(E,  'nota(s) de R$ 5.00')
-print(F, ' nota(s) de R$ 2.00')
-print(G, 'moeda(s) de R$ 1.00')
-print(H, 'moeda(s) de R$ 0.50')
-print(I, ' moeda(s) de R$ 0.25')
-print(J, ' moeda(s) de R$ 0.10')
-print(K,' moeda(s) de R$ 0.05')
-print(L, ' moeda(s) de R$ 0.01')
+print('NOTAS:')
+print('%.0f nota(s) de R$ 100.00' % A)
+print('%.0f nota(s) de R$ 50.00' % B)
+print('%.0f nota(s) de R$ 20.00' % C)
+print('%.0f nota(s) de R$ 10.00' % D)
+print('%.0f nota(s) de R$ 5.00' % E)
+print('%.0f nota(s) de R$ 2.00' % F)
+print('MOEDAS:')
+print('%.0f moeda(s) de R$ 1.00' % G)
+print('%.0f moeda(s) de R$ 0.50' % H)
+print('%.0f moeda(s) de R$ 0.25' % I)
+print('%.0f moeda(s) de R$ 0.10' % J)
+print('%.0f moeda(s) de R$ 0.05' % K)
+print('%.0f moeda(s) de R$ 0.01' % L)
+
 
 
