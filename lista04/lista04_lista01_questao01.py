@@ -14,6 +14,7 @@
 
 number1 = float(input("Digite um valor: "))
 number2 = float(input("Digite outro valor: "))
+
 if number1 > number2:
     print(number1, " é maior que ", number2)
 else:
