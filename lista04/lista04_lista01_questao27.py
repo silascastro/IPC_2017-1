@@ -22,3 +22,20 @@
 # e escreva o valor a ser pago pelo cliente.
 #------------------------------------------------------------------------------
 
+strawberry_kg = float(input('Insira quantidade de morangos (em kg):'))
+apple_kg = float(input('Insira quantidade de maças (em kg):'))
+
+total_price = 0
+if strawberry_kg <= 5:
+  total_price += 2.5*strawberry_kg
+else:
+  total_price += 2.20*strawberry_kg
+if apple_kg <= 5:
+  total_price += 1.8*apple_kg
+else:
+  total_price += 1.5*apple_kg
+  
+if strawberry_kg + apple_kg > 8 or total_price > 25:
+  total_price -= 0.1*total_price
+  
+print('Total de valor à pagar:', total_price)
