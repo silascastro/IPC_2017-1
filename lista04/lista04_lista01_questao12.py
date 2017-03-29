@@ -20,9 +20,9 @@
 #No exemplo o valor da hora é 5 e a quantidade de hora é 220.
 #-----------------------------------------------------------------------------------------------------------------------
 
-x = float(input('horas trabalhadas'))
-y = float(input('ganhos por hora'))
-SalarioBruto = x * y
+X = float(input('horas trabalhadas'))
+Y = float(input('ganhos por hora'))
+SalarioBruto = X * Y
 print ('Salario Bruto',SalarioBruto)
 Sindicato = SalarioBruto * 0.03
 print ('Sindicato', Sindicato)
