@@ -12,9 +12,9 @@
 #Criar um programa que receba três valores e indique o maior
 #-------------------------------------------------------------------------------------
 
-a = int(input("digite um valor: "))
-b = int(input("digite outro valor: "))
-c = int(input("digite mais um valor: "))
+a = int(input())
+b = int(input())
+c = int(input())
 
 MaiorAB = [a, b, c]
 
