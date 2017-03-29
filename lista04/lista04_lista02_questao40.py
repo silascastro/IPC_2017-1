@@ -28,8 +28,10 @@ n1p = n1*2
 n2p = n2*3
 n3p = n3*4
 n4p = n4*1
+
 media = ((n1p+n2p+n3p+n4p)/4)
 print("Média: %.1f" %media)
+
 if media >= 7.0:
     print("Aluno aprovado")
 elif media < 5.0:
