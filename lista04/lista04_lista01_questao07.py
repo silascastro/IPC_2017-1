@@ -13,20 +13,20 @@
 # e mostre o maior e o menor deles.
 #------------------------------------------------------------------------------
 
-n1 = float(input('Digite um numero: '))
-n2 = float(input('Digite um numero: '))
-n3 = float(input('Digite um numero: '))
+numb1 = float(input('Digite um numero: '))
+numb2 = float(input('Digite um numero: '))
+numb3 = float(input('Digite um numero: '))
 
-lower = n1
-if n2 < lower:
-	lower = n2 
-if n3 < lower:
-	lower = n3
-higher = n1
-if n2 > higher:
-	higher = n2
-if n3 > higher:
-	higher = n3
+lower = numb1
+if numb2 < lower:
+	lower = numb2 
+if numb3 < lower:
+	lower = numb3
+higher = numb1
+if numb2 > higher:
+	higher = numb2
+if numb3 > higher:
+	higher = numb3
 
 print('O menor é: %d' %lower)
 print('O maior é: %d' %higher)
