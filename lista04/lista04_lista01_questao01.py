@@ -1,15 +1,15 @@
 #--------------------------------------------------------------------------
-#IntroduÁ„o a ProgramaÁ„o de Computadores - IPC
+#Introdu√ß√£o a Programa√ß√£o de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 #
-#Gabriel Barroso da Silva Lima 1715310011
-#Felipe Eduardo Silva de Almeida 1715310031
-#Frederico Victor Alfaia Rodrigues 
-1515200030
-#Diogo Duarte
-#Felipe Guerreiro de Mello 1315120052
-#FaÁa um Programa que peÁa dois n˙meros e imprima o maior deles. 
+# Diogo Duarte
+# Felipe Eduardo Silva de Almeida   1715310031
+# Felipe Guerreiro de Mello         1315120052
+# Frederico Victor Alfaia Rodrigues 1515200030
+# Gabriel Barroso da Silva Lima     1715310011
+#
+#Fa√ßa um Programa que pe√ßa dois n√∫meros e imprima o maior deles. 
 #-------------------------------------------------------------------------------------
 
 a = float(input("digite um valor"))
@@ -18,12 +18,12 @@ b = float(input("digite outro valor"))
 
 if a>b:
 
-    print(a, "È maior que" ,b)
+    print(a, "√© maior que" ,b)
 
 else:
 
     if b>a:
-        print(b, "È maior que", a)
+        print(b, "√© maior que", a)
     else:
 
-        print(b, "e", a, "s„o iguais")
+        print(b, "e", a, "s√£o iguais")
