@@ -13,12 +13,12 @@
 # Se não for possível, calcular o trapézio tendo a e b como bases e c como altura
 #-------------------------------------------------------------------------------------
 
-a = float(input())
-b = float(input())
-c = float(input())
-perimeter = (a+b+c)/2
-if perimeter < a or perimeter < b or perimeter < c:
-    perimeter = (a+b) * c
-    print("Area = " a+b+c)
+A = float(input())
+B = float(input())
+C = float(input())
+perimeter = (A+B+C)/2
+if perimeter < A or perimeter < B or perimeter < C:
+    perimeter = (A+B) * C
+    print("Area = " A+B+C)
 else:
     print("Perimetro =", perimeter)
