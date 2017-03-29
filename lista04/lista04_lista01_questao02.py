@@ -10,13 +10,12 @@
 #
 # Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 # ----------------------------------------------------------------------------------------------------------------------
-a=float(input('digite um valor'))
+a = float(input('digite um valor'))
 
-if a>0:
+if a > 0:
     print('O valor é positivo')
-
 else:
-    if a<0:
+    if a < 0:
         print('O valor é negativo')
     else:
         print('O valor é neutro')
