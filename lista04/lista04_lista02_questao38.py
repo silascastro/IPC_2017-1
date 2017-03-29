@@ -30,18 +30,18 @@
 # a ser pago, com 2 casas após o ponto decimal.
 # --------------------------------------------------------------------------------------
 
-x = int(input())
-y = float(input())
+code = int(input())
+amount = float(input())
 
-if x == 1:
+if code == 1:
     price = 4.00
-elif x == 2:
+elif code == 2:
     price = 4.50
-elif x == 3:
+elif code == 3:
     price = 5.00
-elif x == 4:
+elif code == 4:
     price = 2.00
 else:
     price = 1.50
 
-print("Total: R$ %2.2f" % float(price * y))
+print("Total: R$ %2.2f" % float(price * amount))
