@@ -1,5 +1,5 @@
 #--------------------------------------------------------------------------
-#Introdução a Programação de Computadores - IPC
+# Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 #
@@ -9,21 +9,23 @@
 # Frederico Victor Alfaia Rodrigues 1515200030
 # Gabriel Barroso da Silva Lima     1715310011
 #
-#Faça um Programa que peça dois números e imprima o maior deles. 
+# Faça um Programa que peça dois números e imprima o maior deles. 
 #-------------------------------------------------------------------------------------
 
-a = float(input("digite um valor"))
+number1 = float(input("Digite um valor: "))
 
-b = float(input("digite outro valor"))
+number2 = float(input("Digite outro valor: "))
 
-if a>b:
+if number1 > number2:
 
-    print(a, "é maior que" ,b)
+    print(number1, " é maior que ", number2)
 
 else:
 
-    if b>a:
-        print(b, "é maior que", a)
+    if number2 > number1:
+        
+        print(number2, " é maior que ", number1)
+    
     else:
 
-        print(b, "e", a, "são iguais")
+        print(number2, " e ", number1, " são iguais.")
