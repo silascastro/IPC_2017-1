@@ -21,7 +21,9 @@
 
 note1 = float(input("Informe primeira nota parcial: "))
 note2 = float(input("Informe segunda nota parcial: "))
+
 average = (note1 + note2)/2
+
 if average >= 7:
     print("Aprovado")
 elif average <7:
