@@ -12,12 +12,12 @@
 # Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao Multiplos",
 # indicando se os valores lidos são múltiplos entre si.
 # ----------------------------------------------------------------------------------------------------------------------
-a, b = input().split()
-a = int(a)
-b = int(b)
+A, B = input().split()
+A = int(A)
+B = int(B)
 
-num1 = a % b
-num2 = b % a
+num1 = A % B
+num2 = B % A
 
 if num1 == 0 or num2 == 0:
     print ("Sao Multiplos")
