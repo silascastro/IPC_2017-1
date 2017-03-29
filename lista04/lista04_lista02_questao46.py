@@ -18,4 +18,5 @@ begin, end = map(int, input().split())
 total_time = 24 - begin + end
 total_time %= 24
 if (total_time == 0): time = 24
+  
 print('O JOGO DUROU %d HORA(S)' %total_time)
