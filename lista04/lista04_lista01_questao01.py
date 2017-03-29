@@ -3,9 +3,9 @@
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 #
-# Felipe Eduardo Silva de Almeida	  1715310031
+# Felipe Eduardo Silva de Almeida     1715310031
 # Felipe Guerreiro Federico Vitor     1315120052
-# Federico Vitor
+# Federico Vitor Alfaia Rodrigues     1515200030
 # Gabriel Alves
 # Gabriel Barroso
 #
