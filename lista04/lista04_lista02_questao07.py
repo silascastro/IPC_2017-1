@@ -11,11 +11,11 @@
 #Criar um programa que calcule e imprima a diferença do produto A e B pelo produto de C e D.
 #-------------------------------------------------------------------------------------
 
-A = int(input('Digite um número para A '))
-B = int(input('Digite um número para B '))
-C = int(input('Digite um número para C '))
-D = int(input('Digite um número para D '))
-difference = (A*B-C*D)
+a = int(input('Digite um número para A '))
+b = int(input('Digite um número para B '))
+c = int(input('Digite um número para C '))
+d = int(input('Digite um número para D '))
+difference = (a*b-c*d)
 
 print ('DIFERENCA =', difference)
 
