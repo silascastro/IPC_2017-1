@@ -15,30 +15,21 @@
 # Se o ponto estiver na origem, escreva a mensagem “Origem”.
 # Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
 
-
-
 x , y = input().split(' ')
 x = float(x)
 y = float(y)
 
-
 if x == y == 0:
     print('Origem')
-
 elif x > 0 < y:
     print('Q1')
-
 elif x < 0 < y:
     print('Q2')
-
 elif x < 0 > y:
     print('Q3')
-
 elif x > 0 > y:
     print('Q4')
-
 elif x == 0 != y:
     print('Eixo Y')
-
 else:
     print('Eixo X')
