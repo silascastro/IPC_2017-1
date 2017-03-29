@@ -14,7 +14,7 @@ employees_number = input()
 worked_hours = input()
 amount_per_hour = input()
 
-SALARY = worked_hours * amount_per_hour
+salary = worked_hours * amount_per_hour
 
 print "NUMBER = %i" % employees_number
 print "SALARY = U$ %5.2f" % SALARY
