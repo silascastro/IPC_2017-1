@@ -19,28 +19,28 @@
 # Saída   :Imprima o nome do animal correspondente à entrada fornecida.
 #------------------------------------------------------------------------------
 
-ent1 = input()
-ent2 = input()
-ent3 = input()
-if(ent1 == "vertebrado"):
-	if(ent2 == "ave"):
-		if(ent3 == "carnivoro"):
+animal_type1 = input()
+animal_type2 = input()
+animal_type3 = input()
+if(animal_type1 == "vertebrado"):
+	if(animal_type2 == "ave"):
+		if(animal_type3 == "carnivoro"):
 			print ("aguia")
 		else:
 			print ("pomba")
 	else:
-		if(ent3 == "onivoro"):
+		if(animal_type3 == "onivoro"):
 			print ("homem")
 		else:
 			print ("vaca")
 else:
-	if(ent2 == "inseto"):
-		if(ent3 == "hematofago"):
+	if(animal_type2 == "inseto"):
+		if(animal_type3 == "hematofago"):
 			print ("pulga")
 		else:
 			print ("lagarta")
 	else:
-		if(ent3 == "hematofago"):
+		if(animal_type3 == "hematofago"):
 			print ("sanguessuga")
 		else:
 			print ("minhoca")
