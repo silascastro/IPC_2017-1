@@ -1,4 +1,4 @@
--#-----------------------------------------------------------------------------------------------------------
+-#------------------------------------------------------------------------------------------------------------
 -# Introdução a Programação de Computadores - IPC
 -# Universidade do Estado do Amazonas - UEA
 -# Prof. Jucimar Jr.
@@ -17,7 +17,8 @@
 -#Apresentar a mensagem "A=" seguido pelo valor da variável area, conforme exemplo abaixo,
 -#com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas,
 -#não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá ("Presentation Error").
--#------------------------------------------------------------------------------------------------------------
+-#--------------------------------------------------------------------------------------------------------------
+
 pi = 3.14159
 radius = float(input())
 area = pi*radius**2
