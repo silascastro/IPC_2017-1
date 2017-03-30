@@ -1,4 +1,4 @@
-#--------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
 #Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
@@ -16,7 +16,9 @@
 A = float(input())
 B = float(input())
 C = float(input())
+
 perimeter = (A+B+C)/2
+
 if perimeter < A or perimeter < B or perimeter < C:
     perimeter = (A+B) * C
     print("Area = " A+B+C)
