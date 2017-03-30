@@ -14,6 +14,7 @@
 
 
 print("Digite M para masculino e F para feminino")
+
 gender = input("Digite \"M\" ou \"F\": ")
 
 if gender == "M" or gender == "m":
