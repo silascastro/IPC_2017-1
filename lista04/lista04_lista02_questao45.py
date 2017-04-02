@@ -9,8 +9,10 @@
 # Kethelen Tamara Braga Barbosa         1525212002
 # Lucas Gabriel Silveira                1715310053
 # Silas Castro de Mendonça              1715310066
-# Leia 3 valores de ponto flutuante A, B e C e ordene-os em ordem decrescente, de modo que o lado A representa o maior dos
-#3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, com base nos seguintes casos, sempre escrevendo
+# Leia 3 valores de ponto flutuante A, B e C e ordene-os em ordem decrescente, 
+#de modo que o lado A representa o maior dos
+#3 lados. A seguir, determine o tipo de triângulo que estes três lados formam, 
+#com base nos seguintes casos, sempre escrevendo
 #uma mensagem adequada:
 	#se A ≥ B+C, apresente a mensagem: NAO FORMA TRIANGULO
 	#se A2 = B2 + C2, apresente a mensagem: TRIANGULO RETANGULO
@@ -18,24 +20,34 @@
 	#se A2 < B2 + C2, apresente a mensagem: TRIANGULO ACUTANGULO
 	#se os três lados forem iguais, apresente a mensagem: TRIANGULO EQUILATERO
 	#se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES
-
-nums = (input().split())
-A,B,C = nums
+#--------------------------------------------------------------------------
+A, B, C = input().split()
 A = float(A)
 B = float(B)
 C = float(C)
 
-if A >= B + C:
-	print("Não forma triangulo")
+maior = A
+if B > maior:
+    maior = B
+    B = A
+    A = maior
+if C > maior:
+    maior = C
+    C = A
+    A = maior
+
+if A >= B+C:
+    print('NAO FORMA TRIANGULO')
 else:
-    if (A**2) == (B**2) + (C**2):
-        print("Triangulo retângulo")
-    if (A**2) > (B**2) + (C**2):
-        print("Triangulo obtusangulo")
-    if (A**2) < (B**2) + (C**2):
-        print("Triangulo acutangulo")
-if A == B and A == C and B == C:
-        print("Triangulo equilatero")
+    if A**2 == B**2 + C**2:
+        print('TRIANGULO RETANGULO')
+    if A**2 > B**2 + C**2:
+        print('TRIANGULO OBTUSANGULO')
+    if A**2 < B**2 + C**2:
+        print('TRIANGULO ACUTANGULO')
+
+if A == B == C:
+        print('TRIANGULO EQUILATERO')
 else:
-    if A == B or B == C or C == A:
-        print("Triangulo isósceles")
+    if A == B != C or A != B == C or A == C != B:
+        print('TRIANGULO ISOSCELES')
