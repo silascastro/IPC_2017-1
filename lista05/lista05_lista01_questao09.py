@@ -7,6 +7,7 @@
 # André Luís Laborda Neves                1515070006
 # Carlos Eduardo Tapudima de Oliveira	    1715310030
 # Aracille de Souza Barbosa               1315120206
+# Dayana Picanço Marquez                  1715310058
 #
 #Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 #----------------------------------------------------------------------------
