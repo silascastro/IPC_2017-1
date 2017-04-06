@@ -2,12 +2,13 @@
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
-# Evandro Padilha Barroso Filho 1715310009 
-# nome completo do aluno 2	matrícula do aluno 2
-# nome completo do aluno 3	matrícula do aluno 3
-# nome completo do aluno 4	matrícula do aluno 4
+# Evandro Padilha Barroso Filho     1715310009 
+# Gabriel Barroso da Silva Lima     1715310011
+# Frederico Victor Alfaia Rodrigues 1515200030 
+# Felipe Eduardo Silva de Almeida   1715310031 
+# aluno 5
 #
-# #03.Faça um programa que leia e valide as seguintes informações:
+#03.Faça um programa que leia e valide as seguintes informações:
 #Nome: maior que 3 caracteres;
 #Idade: entre 0 e 150;
 #Salário: maior que zero;
