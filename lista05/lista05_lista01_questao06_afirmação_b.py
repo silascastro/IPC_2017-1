@@ -15,10 +15,7 @@
 #----------------------------------------------------------
 
 number = 1
-number_str = ""
 
 while number < 21:
-    number_str = number_str + str(number)
+    print(number),
     number = number + 1
-
-print(number_str)
