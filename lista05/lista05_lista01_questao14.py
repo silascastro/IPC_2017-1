@@ -4,7 +4,11 @@
 #
 # Prof. Jucimar Jr 
 #
-# Lukas Michel Souza Mota 1715310018
+# Lukas Michel Souza Mota               1715310018
+# Marcus Vinicius Paes da Silva Santos 1515070060
+# Matheus de Oliveira Marques           1515310514
+# Natália Cavalcante Xavier             1715310021
+# Nayara da Silva Cerdeira da Costa     1715310038
 #
 # Faça um programa que peça 10 números inteiros, 
 # calcule e mostre a quantidade de números pares e a quantidade de números impares.  
