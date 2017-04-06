@@ -10,15 +10,15 @@
 # Iury da Silva Coelho          1715310069
 # Questão 42: Faça um programa que leia uma quantidade indeterminada de números positivos e
 # conte quantos deles estão nos seguintes intervalos: [0-25], [26-50], [51-75] e [76-100].
-# A entrada de dados deverá terminar quando for lido um número negativo
+# A entrada de dados deverá terminar quando for lido um número negativo.
 
-c=0
+c = 0
 sum0_25 = 0
 sum26_50 =0
 sum51_75 = 0
 sum76_100 = 0
 
-number = float(input("Digite qualquer número"))
+number = float(input("Digite qualquer número inteiro positivo (para sair digite um númeronegativo)"))
 while number > 0:
     number = float(input("Digite qualquer número"))
     if 0 < number <= 25:
