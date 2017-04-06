@@ -19,3 +19,4 @@ while name == password:
     print("Sua senha não pode ser igual ao seu login, digite suas informações novamente")
     name = input("Digite o seu nome de acesso: ")
     password = input("Digite sua senha: ")
+print("Informações atualizadas")
