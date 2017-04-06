@@ -19,7 +19,7 @@ number = int(input("Digite um número inteiro para verificar se ele é primo: ")
 c = 2
 
 while c < number:
-    if number%c == 0:
+    if number % c == 0:
         c = number
         check = 0
     else:
