@@ -25,6 +25,8 @@ def validation(name, age, sallary, sex, civil_state,):
     if len(name) < 3 or age < 0 or age > 150 or sallary <= 0 or sex not in ['f', 'm'] or civil_state not in ['s', 'c',
                                                                                                             'v','d']:
         return False
+    else:
+        validation == True
 
 while validation(name, age,sallary, sex, civil_state) == False:
     print("Algum campo está invalido, por favor digite novamente os campos")
