@@ -10,9 +10,8 @@
 # Depois modifique o programa para que ele mostre os números um ao lado do outro. 
 #----------------------------------------------------------
 
+number = 1
 
-x = 1
-
-while x <= 20:
-    print(x),
-    x += 1
+while number < 21:
+    print(number)
+    number = number + 1
