@@ -1,7 +1,8 @@
 #---------------------------------------------------------------------------
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
-#
+# Prof. Jucimar Jr
+# 
 # Adham Lucas da Silva Oliveira           1715310059
 # Alexandre Marques Uchôa                 1715310028
 # André Luís Laborda Neves                1515070006
