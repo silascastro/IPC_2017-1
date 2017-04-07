@@ -32,6 +32,6 @@ else:
         check = 3
 
 if check == 1 or check == 2:
-    print(number,"é primo")
+    print(number,"É um número primo")
 else:
-     print(number,"não é primo")
+     print(number,"Não é um número primo")
