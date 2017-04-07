@@ -12,7 +12,6 @@ else:
     higher = number_2
     lower = number
 
-
 while lower < (higher - 1):
     lower = lower + 1
     acumulator = acumulator + lower
