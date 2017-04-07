@@ -13,11 +13,11 @@
 
 print("Informe 5 números para imprimir o maior deles")
 
-number1 = float(input("Digite um número: "))
-number2 = float(input("Digite um número: "))
-number3 = float(input("Digite um número: "))
-number4 = float(input("Digite um número: "))
-number5 = float(input("Digite um número: "))
+number1 = input("Digite um número: ")
+number2 = input("Digite um número: ")
+number3 = input("Digite um número: ")
+number4 = input("Digite um número: ")
+number5 = input("Digite um número: ")
 
 if number1 > number2 and number1 > number3 and number1 > number4 and number1 > number5:
     while number1 > number2 and number1 > number3 and number1 > number4 and number1 > number5:
