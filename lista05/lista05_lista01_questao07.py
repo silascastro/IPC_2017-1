@@ -8,6 +8,8 @@
 # VICTOR HUGO DE OLIVEIRA CARREIRA - 1715310063
 # REINALDO VARGAS - 1715310054
 #
+#7)Faça um programa que leia 5 números e informe o maior número.
+#
 number1 = int(input("digite um número: "))
 number2 = int(input("digite mais um número: "))
 number3 = int(input("digite mais um número: "))
