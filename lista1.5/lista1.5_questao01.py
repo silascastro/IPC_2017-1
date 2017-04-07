@@ -12,7 +12,7 @@
 # clacule e mostre a subtração do primeiro pelo segundo
 # ----------------------------------------------------------
 
-a = int(input("Digite o valor de a:"))
-b = int(input("Digite o valor de b:"))
+number_1 = int(input("Digite o valor de a:"))
+number_2 = int(input("Digite o valor de b:"))
 
-print("a - b = %d" % (a - b))
+print("a - b = %d" % (number_1 - number_2))
