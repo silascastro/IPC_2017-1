@@ -8,7 +8,7 @@ while numb1 > numb2 and numb1 > numb3 and numb1 > numb4 and numb1 > numb5:
     print("o maior número é o: ", numb1)
     break
 while numb2 > numb1 and numb2 > numb3 and numb2 > numb4 and numb2 > numb5:
-    print("o maior número é o", numb2)
+    print("o maior número é o: ", numb2)
     break
 while numb3 > numb1 and numb3 > numb2 and numb3 > numb4 and numb3 > numb5:
     print("o maior número é o", numb3)
