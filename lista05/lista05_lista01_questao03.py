@@ -6,7 +6,7 @@
 # Gabriel Barroso da Silva Lima     1715310011
 # Frederico Victor Alfaia Rodrigues 1515200030 
 # Felipe Eduardo Silva de Almeida   1715310031 
-# aluno 5
+# Felipe Guerreiro De Mello         1315120052 
 #
 #03.Faça um programa que leia e valide as seguintes informações:
 #Nome: maior que 3 caracteres;
