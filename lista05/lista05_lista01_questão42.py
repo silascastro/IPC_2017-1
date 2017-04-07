@@ -27,7 +27,7 @@ while number > 0:
     if 50 < number <= 75:
         sum51_75 = sum51_75 + 1
     if 75 < number <= 100:
-        sum76_100 = sum + 1
+        sum76_100 = sum76_100 + 1
 c = c + 1
 
 
