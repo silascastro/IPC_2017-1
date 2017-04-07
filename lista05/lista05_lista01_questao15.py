@@ -1,6 +1,6 @@
 
-# Introdução a Programação de Computadores - IPC
-# Universidade do Estado do Amazonas - UEA
+#Introdução a Programação de Computadores - IPC
+#Universidade do Estado do Amazonas - UEA
 #
 #Ulisses Antonio Da Costa                1515090555
 #Thiago ferreira Aranha 		 1715310047 
