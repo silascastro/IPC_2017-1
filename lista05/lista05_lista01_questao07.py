@@ -1,6 +1,13 @@
 # --------------------------------------------------------------------------
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
+# Prof. Jucimar Jr
+# ULISSES ANTONIO ANTONINO DA COSTA - 1515090555
+# TIAGO FERREIRA ARANHA - 1715310047
+# VÍTOR SIMÕES AZEVEDO - 1715310025
+# VICTOR HUGO DE OLIVEIRA CARREIRA - 1715310063
+# REINALDO VARGAS - 1715310054
+#
 number1 = int(input("digite um número: "))
 number2 = int(input("digite mais um número: "))
 number3 = int(input("digite mais um número: "))
