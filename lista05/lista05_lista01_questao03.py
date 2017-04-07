@@ -7,7 +7,7 @@
 # Frederico Victor Alfaia Rodrigues 1515200030 
 # Felipe Eduardo Silva de Almeida   1715310031 
 # Felipe Guerreiro De Mello         1315120052 
-#
+# Silas castro de Mendonça          1715310066
 #03.Faça um programa que leia e valide as seguintes informações:
 #Nome: maior que 3 caracteres;
 #Idade: entre 0 e 150;
