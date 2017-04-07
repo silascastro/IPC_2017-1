@@ -8,6 +8,7 @@
 # Guilherme Silva de Oliveira       1715310034
 # Hugo Thadeu Silva Cardoso         1715310013
 # Jandinne Duarte de Oliveira       1015070265
+# Joelson Pereira Lima              1715310060
 #
 #Altere o programa de cálculo do fatorial, permitindo ao usuário calcular o fatorial várias vezes e limitando o fatorial
 #a números inteiros positivos e menores que 16.
