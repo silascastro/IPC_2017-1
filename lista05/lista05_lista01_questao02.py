@@ -18,7 +18,7 @@ username = input("Informe seu username: ")
 password = input("Digite sua senha: ")
 
 while username == password:
-    print("Não ultilize como password seu username!")
+    print("Não utilize como password seu username!")
     password = input("Digite sua senha: ")
 
 print("Informações validas")
