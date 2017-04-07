@@ -17,7 +17,7 @@ while numb4 > numb1 and numb4 > numb2 and numb4 > numb3 and numb4 > numb5:
     print("o maior numero e o", numb4)
     break
 while numb5 > numb1 and numb5 > numb2 and numb5 > numb3 and numb5 > numb4:
-    print("o mair numero e o", numb5)
+    print("o maior numero e o", numb5)
     break
 else:
     print("operacao invalida! numeros iguais")
