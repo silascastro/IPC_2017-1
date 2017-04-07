@@ -31,6 +31,6 @@ while c < voters:
         sum3 = sum3 + 1
     c = c + 1
 
-print(("Candidato (1) teve: "), sum1, ("votos"))
-print(("Candidato (2) teve: "), sum2, ("votos"))
-print(("Candidato (3) teve: "), sum3, ("votos"))
+print(("Candidato (1) obteve: "), sum1, ("votos"))
+print(("Candidato (2) obteve: "), sum2, ("votos"))
+print(("Candidato (3) obteve: "), sum3, ("votos"))
