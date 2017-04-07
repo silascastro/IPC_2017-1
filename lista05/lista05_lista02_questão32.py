@@ -13,13 +13,13 @@
 # dois valores são passados pelo usuário através do teclado.
 # ----------------------------------------------------------------------------------------------------------------------
 
-pow = 1
+po = 1
 
 numberA = float(input("Digite o valor do numero A: "))
 numberB = int(input("Digite o valor do numero B: "))
 
 while numberB > 0:
-    pow *= numberA
+    po *= numberA
     numberB -= 1
 
-print(pow)
+print(po)
