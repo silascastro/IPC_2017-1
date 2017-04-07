@@ -13,23 +13,18 @@
 #intervalo compreendido por eles.
 #-----------------------------------------------------------------------------------------------------------------------
 
-sum = 0
-
 number1 = int(input("Digite um numero inteiro: "))
 number2 = int(input("Digite outro numero inteiro: "))
 
-if number1 < number2:
-    while number1 < number2:
-        number1 = number1 + 1
-        sum = sum + number1
-        if number1 < number2:
-            print(number1)
+if (number1 < number2) :
+    while number1 <= number2 :
+        print(number1)
+        number1 += 1
+    
+elif (number1 > number2) :
+    while number2 <= number1 :
+        print(number2)
+        number2 += 1
 
 else:
-    if number2 < number1:
-     while number2 < number1:
-        number2 = number2 + 1
-        sum = sum + number2
-        if number2 < number1:
-            print(number2)
-
+    print("Numeros iguais, intervalo nulo !")
