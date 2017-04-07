@@ -16,7 +16,7 @@
 n_numbers = float(input("Digite o tamanho de um conjunto (números de 0-10000): "))
 
 while n_numbers < 0 or n_numbers > 10000:
-    print("Número invalido, digite novamente")
+    print("Número inválido, digite novamente")
     n_numbers = float(input("Digite o tamanho de um conjunto (números de 0-10000): "))
 
 counter = 1
@@ -30,7 +30,7 @@ while counter <= n_numbers:
     sum = sum + position
     counter = counter + 1
 
-print("o menor numero é: ", lowest)
+print("O menor numero é: ", lowest)
 print("O maior numero é: ", higher)
 print("A soma é: ", sum)
 
