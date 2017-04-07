@@ -54,7 +54,7 @@ while c <= 7:
             Worse note = valor
     c += 1
 
-    media = (sum - Best_note - Worse_note) / 5
+    average = (sum - Best_note - Worse_note) / 5
 
 print("Resultado final:")
 print("Atleta: %s" % Gymnast_name)
