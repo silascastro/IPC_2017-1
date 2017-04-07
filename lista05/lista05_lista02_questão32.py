@@ -12,6 +12,7 @@
 # B (número inteiro e positivo), ou seja, AB , através de multiplicações sucessivas. Esses
 # dois valores são passados pelo usuário através do teclado.
 # ----------------------------------------------------------------------------------------------------------------------
+
 count = 0
 sum = 0
 numberA = float(input("Digite o valor do numero A"))
