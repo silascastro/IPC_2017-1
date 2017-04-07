@@ -7,6 +7,7 @@
 # Frederico Victor Alfaia Rodrigues 1515200030 
 # Felipe Eduardo Silva de Almeida   1715310031 
 # Felipe Guerreiro De Mello         1315120052 
+# Silas castro de Mendonça          1715310066
 #
 #11.Altere o programa anterior para mostrar no final a soma dos números.
 #
