@@ -46,18 +46,18 @@ while c <= 7:
 
     if c == 1:
         Best_note = valor
-        pior_nota = valor
+        Worse_note = valor
     else:
-        if valor > Best note:
+        if valor > Best_note:
             Best_note = valor
-        elif valor < pior_nota:
-            pior_nota = valor
+        elif valor < Worse_note:
+            Worse note = valor
     c += 1
 
-    media = (sum - Best_note - pior_nota) / 5
+    media = (sum - Best_note - Worse_note) / 5
 
 print("Resultado final:")
 print("Atleta: %s" % Gymnast_name)
 print("Melhor nota: %1.1f" % Best_note)
-print("Pior nota: %1.1f" % pior_nota)
+print("Pior nota: %1.1f" % Worse_note)
 print("Media: %1.2f" % media)
