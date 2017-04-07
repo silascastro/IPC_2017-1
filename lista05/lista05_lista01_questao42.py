@@ -11,7 +11,7 @@
 # Questão 42: Faça um programa que leia uma quantidade indeterminada de números positivos e
 # conte quantos deles estão nos seguintes intervalos: [0-25], [26-50], [51-75] e [76-100].
 # A entrada de dados deverá terminar quando for lido um número negativo.
-
+#----------------------------------------------------------------------------------------------------------------------
 c = 0
 
 sum0_25 = 0
@@ -30,7 +30,7 @@ while number > 0:
         sum51_75 = sum51_75 + 1
     if 75 < number <= 100:
         sum76_100 = sum76_100 + 1
-c = c + 1
+    c = c + 1
 
 print("Existem" ,sum0_25,"entre 0 e 25 ")
 print("Existem" ,sum26_50,"entre 26 e 50 ")
