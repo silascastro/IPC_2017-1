@@ -1,4 +1,4 @@
-number1 = int(input("digite um numero"))
+number1 = int(input("digite um numero: "))
 number2 = int(input("digite mais um numero"))
 number3 = int(input("digite mais um numero"))
 number4 = int(input("digite mais um numero"))
