@@ -33,7 +33,7 @@
 # Média: 9,04
 # -----------------------------------------------------------------------------
 
-nome_ginasta = input("Informe o nome do ginasta: ")
+Gymnast_name = input("Informe o nome do ginasta: ")
 
 c = 1
 
@@ -57,7 +57,7 @@ while c <= 7:
     media = (sum - melhor_nota - pior_nota) / 5
 
 print("Resultado final:")
-print("Atleta: %s" % nome_ginasta)
+print("Atleta: %s" % Gymnast_name)
 print("Melhor nota: %1.1f" % melhor_nota)
 print("Pior nota: %1.1f" % pior_nota)
 print("Media: %1.2f" % media)
