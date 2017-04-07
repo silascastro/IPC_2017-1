@@ -20,7 +20,6 @@ sum76_100 = 0
 
 number = float(input("Digite qualquer número inteiro positivo (para sair digite um númeronegativo)"))
 while number > 0:
-    number = float(input("Digite qualquer número"))
     if 0 < number <= 25:
         sum0_25 = sum0_25 + 1
     if 25 < number <= 50:
