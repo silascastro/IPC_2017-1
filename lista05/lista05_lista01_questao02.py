@@ -14,11 +14,11 @@
 #Faça um programa que leia e valide as seguintes informações:
 #-----------------------------------------------------------------------------------------------------------------------
 
-username = input("Informe seu username: ")
+username = input("Informe um nome de usuário: ")
 password = input("Digite sua senha: ")
 
 while username == password:
-    print("Não utilize como password seu username!")
+    print("Não utilize seu nome de usuário como senha!")
     password = input("Digite sua senha: ")
 
-print("Informações validas")
+print("Informações válidas")
