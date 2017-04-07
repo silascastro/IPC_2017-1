@@ -48,8 +48,8 @@ while c <= 7:
         Best note = valor
         pior_nota = valor
     else:
-        if valor > melhor_nota:
-            melhor_nota = valor
+        if valor > Best note:
+            Best note = valor
         elif valor < pior_nota:
             pior_nota = valor
     c += 1
