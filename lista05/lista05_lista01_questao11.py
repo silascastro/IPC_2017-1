@@ -1,4 +1,16 @@
-#Altere o programa anterior para mostrar no final a soma dos números.
+# ----------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
+# Universidade do Estado do Amazonas - UEA
+# Prof. Jucimar Jr
+# Evandro Padilha Barroso Filho     1715310009 
+# Gabriel Barroso da Silva Lima     1715310011
+# Frederico Victor Alfaia Rodrigues 1515200030 
+# Felipe Eduardo Silva de Almeida   1715310031 
+# aluno 5
+#
+#11.Altere o programa anterior para mostrar no final a soma dos números.
+#
+# ----------------------------------------------------------
 
 number = int(input("Digite um número inteiro: "))
 number_2 = int(input("Digite um número inteiro: "))
