@@ -16,22 +16,15 @@
 
 number = int(input("Digite um número inteiro para verificar se ele é primo: "))
 
-c = 2
+aux = number
+cont = 0
 
-while c < number:
-    if number % c == 0:
-        c = number
-        check = 0
-    else:
-         c = c + 1
-         check = 1
-if number == 2:
-    check = 2
-else:
-    if number == 1:
-        check = 3
+while aux > 1 :
+    if (number % aux) == 0 :
+        cont += 1
+    aux -= 1    
 
-if check == 1 or check == 2:
-    print(number,"É um número primo")
-else:
-     print(number,"Não é um número primo")
+if cont == 1 :
+    print("O valor eh primo !")
+else :
+    print("O valor nao eh primo !")
