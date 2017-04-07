@@ -17,5 +17,5 @@
 number = 1
 
 while number < 21:
-    print(number),
+    print(number, end=', ')
     number = number + 1
