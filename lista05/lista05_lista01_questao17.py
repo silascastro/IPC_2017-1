@@ -15,10 +15,10 @@
 #  Ex.: 5!=5.4.3.2.1=120
 #----------------------------------------------------------------------------
 
-n = int(input("Informe um número: "))
+number = int(input("Informe um número: "))
 cont = 1
-fat = 1
-while cont <= n:
-    fat = fat*cont
+factorial = 1 
+while cont <= number:
+    factorial = factorial*cont
     cont = cont+1
-print(fat)
+print(factorial)
