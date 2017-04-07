@@ -4,20 +4,25 @@ number3 = int(input("digite mais um número: "))
 number4 = int(input("digite mais um número: "))
 number5 = int(input("digite mais um número: "))
 
-while numb1 > numb2 and numb1 > numb3 and numb1 > numb4 and numb1 > numb5:
-    print("o maior número é o: ", numb1)
+while number1 > number2 and number1 > number3 and number1 > number4 and number1 > number5:
+    print("o maior número é o: ", number1)
     break
-while numb2 > numb1 and numb2 > numb3 and numb2 > numb4 and numb2 > numb5:
-    print("o maior número é o: ", numb2)
+    
+while number2 > number1 and number2 > number3 and number2 > number4 and number2 > number5:
+    print("o maior número é o: ", number2)
     break
-while numb3 > numb1 and numb3 > numb2 and numb3 > numb4 and numb3 > numb5:
-    print("o maior número é o: ", numb3)
+    
+while number3 > number1 and number3 > number2 and number3 > number4 and number3 > number5:
+    print("o maior número é o: ", number3)
     break
-while numb4 > numb1 and numb4 > numb2 and numb4 > numb3 and numb4 > numb5:
-    print("o maior número é o: ", numb4)
+    
+while number4 > number1 and number4 > number2 and number4 > number3 and number4 > number5:
+    print("o maior número é o: ", number4)
     break
-while numb5 > numb1 and numb5 > numb2 and numb5 > numb3 and numb5 > numb4:
-    print("o maior número é o: ", numb5)
+    
+while number5 > number1 and number5 > number2 and number5 > number3 and number5 > number4:
+    print("o maior número é o: ", number5)
     break
+    
 else:
     print("operação invalida! números iguais")
