@@ -37,12 +37,12 @@ nome_ginasta = input("Informe o nome do ginasta: ")
 
 c = 1
 
-soma = 0
+sum = 0
 
 while c <= 7:
 
     valor = float(input("Nota {}: ".format(c)))
-    soma = soma + valor
+    sum = sum + valor
 
     if c == 1:
         melhor_nota = valor
@@ -54,7 +54,7 @@ while c <= 7:
             pior_nota = valor
     c += 1
 
-    media = (soma - melhor_nota - pior_nota) / 5
+    media = (sum - melhor_nota - pior_nota) / 5
 
 print("Resultado final:")
 print("Atleta: %s" % nome_ginasta)
