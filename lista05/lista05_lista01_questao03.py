@@ -39,6 +39,6 @@ while sex != 'f' and sex != 'm':
 
 civil_state = input("Digite seu estado civil (s, c, v, d): ")
 while civil_state != 's' and civil_state != 'c' and civil_state != 'v' and civil_state != 'd':
-    civil_state = input("Digite seu estado civil(s, c, v, d): ")
+    civil_state = input("Digite seu estado civil (s, c, v, d): ")
 
 print("Informações atualizadas") 
