@@ -13,14 +13,13 @@
 # dois valores são passados pelo usuário através do teclado.
 # ----------------------------------------------------------------------------------------------------------------------
 
-count = 0
-sum = 0
-numberA = float(input("Digite o valor do numero A"))
-numberB = float(input("Digite o valor do numero B"))
+pow = 1
 
-while count <= numberB:
-            sum = sum + numberA
-            pot = numberA*sum
-            sum = 0
-            count = count +1
-print(pot)
+numberA = float(input("Digite o valor do numero A: "))
+numberB = int(input("Digite o valor do numero B: "))
+
+while numberB > 0:
+    pow *= numberA
+    numberB -= 1
+
+print(pow)
