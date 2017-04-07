@@ -9,10 +9,11 @@
 # Felipe Guerreiro De Mello         1315120052 
 # Silas castro de Mendonça          1715310066
 #
-#Faça um programa que calcule o número médio de alunos por turma. 
+#27.Faça um programa que calcule o número médio de alunos por turma. 
 #Para isto, peça a quantidade de turmas e a quantidade de alunos
-# para cada #turma. As turmas não podem ter mais de 40 alunos. 
+# para cada turma. As turmas não podem ter mais de 40 alunos. 
 #----------------------------------------------------------------
+
 classes = int(input("Informe o número de turmas "))
 
 c = 0
