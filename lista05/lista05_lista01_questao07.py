@@ -2,7 +2,7 @@ number1 = int(input("digite um numero"))
 number2 = int(input("digite mais um numero"))
 number3 = int(input("digite mais um numero"))
 number4 = int(input("digite mais um numero"))
-numb5 = int(input("digite mais um numero"))
+number5 = int(input("digite mais um numero"))
 
 while numb1 > numb2 and numb1 > numb3 and numb1 > numb4 and numb1 > numb5:
     print("o mair numero e o", numb1)
