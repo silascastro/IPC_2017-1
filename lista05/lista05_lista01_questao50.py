@@ -12,12 +12,12 @@
 #50.Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, Faça um programa que calcule o valor de H com N termos.
 #-----------------------------------------------------------------------------------------------------------------------
 
-n = int(input("Digite um número: "))
+number = int(input("Digite um número: "))
 
 c = 0
 h = 0
 
-while c < n:
+while c < number:
     h = h + 1/(c+1)
     c = c + 1
 
