@@ -14,13 +14,13 @@
 #a números inteiros positivos e menores que 16.
 
 def fatorial(n):
-   if n <= 1:
+   if n == 1:
       return 1
    else:
       return n * fatorial(n-1)
 n = int(input("Insira um numero natural n: "))
 
-if n < 16:
+if 0 < n < 16:
     print ("O fatorial de n é: ", fatorial(n))
 else:
     print("404 Not Found")
