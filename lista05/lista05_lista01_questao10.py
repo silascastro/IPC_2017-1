@@ -27,4 +27,4 @@ elif (number1 > number2) :
         number2 += 1
 
 else:
-    print("Numeros iguais, intervalo nulo !")
+    print("Números iguais, intervalo nulo !")
