@@ -13,8 +13,8 @@
 #intervalo compreendido por eles.
 #-----------------------------------------------------------------------------------------------------------------------
 
-number1 = int(input("Digite um numero inteiro: "))
-number2 = int(input("Digite outro numero inteiro: "))
+number1 = int(input("Digite um número inteiro: "))
+number2 = int(input("Digite outro número inteiro: "))
 
 if (number1 < number2) :
     while number1 <= number2 :
