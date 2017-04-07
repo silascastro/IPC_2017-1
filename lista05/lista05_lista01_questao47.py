@@ -45,7 +45,7 @@ while c <= 7:
     sum = sum + valor
 
     if c == 1:
-        melhor_nota = valor
+        Best note = valor
         pior_nota = valor
     else:
         if valor > melhor_nota:
