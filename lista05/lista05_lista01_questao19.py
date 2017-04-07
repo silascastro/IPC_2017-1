@@ -32,5 +32,5 @@ while counter <= n_numbers:
 
 print("o menor numero é: ", lowest)
 print("O maior numero é: ", higher)
-print("A soma é",sum)
+print("A soma é: ", sum)
 
