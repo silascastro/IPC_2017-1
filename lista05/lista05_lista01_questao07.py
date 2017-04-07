@@ -1,4 +1,5 @@
 # --------------------------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
 number1 = int(input("digite um número: "))
 number2 = int(input("digite mais um número: "))
 number3 = int(input("digite mais um número: "))
