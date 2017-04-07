@@ -14,13 +14,13 @@
 #Faça um programa capaz de gerar a série até o n−ésimo termo
 
 previous = 1
-next = 1
+next1 = 1
 fibonacci = 0
 
 while fibonacci < 55:
 
     fibonacci = previous
-    previous = next
-    next = fibonacci + previous
+    previous = next1
+    next1 = fibonacci + previous
 
     print(fibonacci, end="...")
