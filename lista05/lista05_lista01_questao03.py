@@ -1,4 +1,4 @@
-# ----------------------------------------------------------
+#----------------------------------------------------------------
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
@@ -14,7 +14,7 @@
 #Salário: maior que zero;
 #Sexo: 'f' ou 'm';
 #Estado Civil: 's', 'c', 'v', 'd';
-# ----------------------------------------------------------
+#----------------------------------------------------------------
 
 name = input("Digite seu nome (min: 3 caracteres): ")
 while len(name) < 3:
