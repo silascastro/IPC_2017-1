@@ -1,4 +1,4 @@
-# ----------------------------------------------------------
+# --------------------------------------------------------------------
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
@@ -10,25 +10,25 @@
 # Silas castro de Mendonça          1715310066
 #
 #11.Altere o programa anterior para mostrar no final a soma dos números.
-#
-# ----------------------------------------------------------
+# ----------------------------------------------------------------------
 
-number = int(input("Digite um número inteiro: "))
-number_2 = int(input("Digite um número inteiro: "))
-acumulator = 0
+sum = 0
 
-if number > number_2:
-    higher = number
-    lower = number_2
+number1 = int(input("Digite um numero inteiro: "))
+number2 = int(input("Digite outro numero inteiro: "))
 
-else:
-    higher = number_2
-    lower = number
+if number1 < number2:
+    while number1 < number2:
+        number1 = number1 + 1
+        if number1 < number2:
+            print(number1)
+            sum = sum + number1
 
-while lower < (higher - 1):
-    lower = lower + 1
-    acumulator = acumulator + lower
-    print(lower)
+elif number2 < number1:
+    while number2 < number1:
+        number2 = number2 + 1
+        if number2 < number1:
+            print(number2)
+            sum = sum + number2
 
-print(acumulator)
-
+print("soma dos numeros dentro do intervalo =",sum)
