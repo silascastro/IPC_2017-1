@@ -48,7 +48,7 @@ while True:
         troco = din - total
         print('Troco: ', troco)
 
-    reset = input('Pressione 0 para reuniciar ou 1 para encerrar: ')
+    reset = input('Pressione 0 para reiniciar ou 1 para encerrar: ')
     if reset == '0':
         continue
     else:
