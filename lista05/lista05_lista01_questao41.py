@@ -36,7 +36,7 @@ while count <= 5:
     if ( count == 1 ):
 
         parcel = dept
-        print("%.2f" % dept, '         | ', "%.2f" % num_parcels, '                  | ',
+        print("%.2f" % dept, '         | ', "%.0f" % num_parcels, '                  | ',
               "%.2f" % profit, '        | ', "%.2f" % parcel)
         num_parcels = 3
         percent_profits = 0.10
@@ -45,7 +45,7 @@ while count <= 5:
 
         profit = dept * percent_profits
         parcel = ( dept / num_parcels ) + profit
-        print("%.2f" % dept, '         | ', "%.2f" % num_parcels, '                  | ',
+        print("%.2f" % dept, '         | ', "%.0f" % num_parcels, '                  | ',
               "%.2f" % profit, '        | ', "%.2f" % parcel)
         num_parcels += 3
         percent_profits += 0.05
