@@ -20,7 +20,7 @@ sum26_50 =0
 sum51_75 = 0
 sum76_100 = 0
 
-number = int(input("Digite qualquer número inteiro positivo (para sair digite um númeronegativo)"))
+number = int(input("Digite qualquer número inteiro positivo (para sair digite um número negativo)"))
 
 while number > 0:
     if 0 < number <= 25:
