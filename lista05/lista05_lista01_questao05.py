@@ -1,15 +1,30 @@
 #Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais.
 #Valide a entrada e permita repetir a operação.
 
-a = float(input("digite a população do primeiro país: "))
-b = float(input("digite a população do segundo país: "))
-tax_a = float(input("digite a taxa de crescimento do primeiro país: "))
-tax_b = float(input("digite a taxa de crescimento do segundo país: "))
+pop_a = float(input("Digite a população do primeiro país: "))
+pop_b= float(input("Digite a população do segundo país: "))
+
+while ( pop_a <= 0 ) or ( pop_b <= pop_a ):
+    print('Valor(res) inválido(s)')
+    pop_a = float(input("Digite a população do primeiro país: "))
+    pop_b = float(input("Digite a população do segundo país: "))
+
+
+tax_a = float(input("Digite a taxa de crescimento do primeiro país: "))
+tax_b = float(input("Digite a taxa de crescimento do segundo país: "))
+
+while tax_a <= tax_b:
+    print('Taxa de crescimento do primeiro país inválida!')
+    print('A Taxa de crescimento do primeiro país deve ser MAIOR que a do segundo país')
+    tax_a = float(input("Digite a taxa de crescimento do primeiro país: "))
+    tax_b = float(input("Digite a taxa de crescimento do segundo país: "))
+
+
 years = 0
 
-while a < b or a == b:
-    a = a + (a * tax_a)
-    b = b + (b * tax_b)
-    print(a)
+while (pop_a <= pop_b):
+    pop_a = pop_a + (pop_a * tax_a)
+    pop_b = pop_b + (pop_b * tax_b)
     years = years + 1
-print("será necessário %i anos para o país a ultrapasar o país b" %years)
+
+print("será necessário %i anos para o país A ultrapasar o país B" %years)
