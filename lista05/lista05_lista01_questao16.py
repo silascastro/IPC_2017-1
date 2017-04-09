@@ -14,16 +14,18 @@
 # valor seja maior que 500.
 #-----------------------------------------------------------
 
-cont1 = 1
-fib = 0
-anterior = 0
-posterior = 1
-print(0)
-print(1)
+prev_number = 0
+next_number = 1
+fibonacci = 0
+count = 1
 
-while cont1 < 15:
-    fib = anterior + posterior
-    anterior = posterior
-    posterior = fib
-    cont1 = cont1 + 1
-    print(fib)
+while fibonacci <= 500:
+    if count == 1:
+        print(prev_number, end = ' ')
+    else:
+        print(next_number, end = ' ')
+        fibonacci = prev_number + next_number
+        prev_number = next_number
+        next_number = fibonacci
+    count += 1
+print(fibonacci)
