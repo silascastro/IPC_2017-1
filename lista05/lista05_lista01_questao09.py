@@ -19,4 +19,4 @@ while 0 < contador < 50:
     progressão_aritmetica = 1 + (contador - 1)*1
     contador = contador + 1
     if progressão_aritmetica % 2 != 0:
-        print(progressão_aritmetica)
+        print(progressão_aritmetica, end = ' ')
