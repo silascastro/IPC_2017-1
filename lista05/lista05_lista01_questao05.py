@@ -1,5 +1,16 @@
+##----------------------------------------------------------------------------------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
+# Universidade do Estado do Amazonas - UEA
+# Prof. Jucimar Jr
+# Kethelen Tamara Braga Barbosa           1525212002
+# Lucas Gabriel Silveira Duarte           1715310053
+# Luis Gustavo Moura de Queiroz           1715310037
+# Luiz Daniel Raposo Nunes de Mello       1715310049
+# Luiz Paulo Machado e Souza              1515200542
+# 
 #Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais.
 #Valide a entrada e permita repetir a operação.
+#--------------------------------------------------------------------------------------------------
 
 pop_a = float(input("Digite a população do primeiro país: "))
 pop_b= float(input("Digite a população do segundo país: "))
