@@ -13,10 +13,10 @@
 #Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 #----------------------------------------------------------------------------
 
-contador = 1
+count = 1
 
-while 0 < contador < 50:
-    progressão_aritmetica = 1 + (contador - 1)*1
-    contador = contador + 1
-    if progressão_aritmetica % 2 != 0:
-        print(progressão_aritmetica, end = ' ')
+while 0 < count < 50:
+    arith_progress = 1 + (count - 1)*1
+    count += 1
+    if (arith_progress % 2 != 0):
+        print(arith_progress, end = '  ')
