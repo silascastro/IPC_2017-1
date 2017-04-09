@@ -13,24 +13,37 @@
 #
 #----------------------------------------------------------------
 #Altere o programa anterior para que ele aceite apenas números entre 0 e 1000.
-n_numbers = float(input("Digite o tamanho de um conjunto (números de 0-10000): "))
 
-while n_numbers < 0 or n_numbers > 10000:
-    print("Número inválido, digite novamente")
-    n_numbers = float(input("Digite o tamanho de um conjunto (números de 0-10000): "))
-
-counter = 1
-sum = 0
+number = 0
 lowest = 0
-higher = n_numbers
-position = 0
+biggest = 0
+amount = 0
+exi = 0
 
-while counter <= n_numbers:
-    position = counter
-    sum = sum + position
-    counter = counter + 1
+while ( exi == 0 ):
 
-print("O menor numero é: ", lowest)
-print("O maior numero é: ", higher)
-print("A soma é: ", sum)
+    number = input('Digite um número entre 0 e 1000 ou digite s para sair: ')
 
+    if ( number != 's'):
+
+        number = int(number)
+        if ( number < 0) or ( number > 1000 ):
+
+            print('Número %.2f inválido!' % number )
+
+        elif( number < lowest ):
+
+            lowest = number
+
+        elif ( number > biggest ):
+
+            biggest = number
+
+    else:
+        exi = 1
+
+amount = lowest + biggest
+
+print('O maior número é: %.2f' % biggest)
+print('O menor número é: %.2f' % lowest)
+print('A soma dos dois é: %.2f' % amount)
