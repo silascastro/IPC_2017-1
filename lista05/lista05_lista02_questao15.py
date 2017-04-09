@@ -2,11 +2,11 @@
 #Introdução a Programação de Computadores - IPC
 #Universidade do Estado do Amazonas - UEA
 #
-#Ulisses Antonio Da Costa              1515090555
-#Thiago ferreira Aranha 		   1715310047
-#vitor simões Azevedo			   1715310025
-#victor hugo de oliveira carreira	   1715310063
-#Reinaldo vargas 			         1715310054
+#Ulisses Antonio Da Costa             1515090555
+#Thiago ferreira Aranha 		  1715310047
+#vitor simões Azevedo			  1715310025
+#victor hugo de oliveira carreira	  1715310063
+#Reinaldo vargas 			        1715310054
 #---------------------------------------------------------------------------------------------------
 #Escreva um algoritmo em PORTUGOL que receba oito números do usuário e imprima
 #o logaritmo de cada um deles na base 10.
