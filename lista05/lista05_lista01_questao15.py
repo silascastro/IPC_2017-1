@@ -13,14 +13,19 @@
 #A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,...
 #Faça um programa capaz de gerar a série até o n−ésimo termo
 
-previous = 1
-next1 = 1
+prev_number = 0
+next_number = 1
 fibonacci = 0
+count = 1
 
-while fibonacci < 55:
+n = int( input('Digite a quantidade de números da sequência fibonacci desejados: '))
 
-    fibonacci = previous
-    previous = next1
-    next1 = fibonacci + previous
-
-    print(fibonacci, end="...")
+while count <= n:
+    if n == 1:
+        print(prev_number, end = ' ')
+    else:
+        print(next_number, end = ' ')
+        fibonacci = prev_number + next_number
+        prev_number = next_number
+        next_number = fibonacci
+    count += 1
