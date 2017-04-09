@@ -9,13 +9,17 @@
 # Aracille de Souza Barbosa               1315120206
 # Dayana Picanço Marquez                  1715310058
 #
-#Faça um programa que peça uma nota, entre zero e dez.
-#Mostre uma mensagem caso o valor seja inválido
-#  e continue pedindo até que o usuário informe um valor válido.
+# Faça um programa que peça uma nota, entre zero e dez.
+# Mostre uma mensagem caso o valor seja inválido
+# e continue pedindo até que o usuário informe um valor válido.
 #-----------------------------------------------------------------
-note = float(input('Digite uma nota entre 0 e 10'))
 
-while note > 10 or note < 0
+grade = float(input('Digite uma nota entre 0 e 10: '))
+
+while (grade > 10) or (grade < 0):
 
     print('Valor inválido')
-    note = float(input('Digite uma nota entre 0 e 10'))
+    print('Digite uma nota entre 0 e 10: ')
+    grade = float(input())
+
+print("%.2f" % grade,' é uma nota válida')
