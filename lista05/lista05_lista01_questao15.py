@@ -1,17 +1,16 @@
 #---------------------------------------------------------------------------
-#Introdução a Programação de Computadores - IPC
-#Universidade do Estado do Amazonas - UEA
+# Introdução a Programação de Computadores - IPC
+# Universidade do Estado do Amazonas - UEA
 #
-#Ulisses Antonio Da Costa                1515090555
-#Thiago ferreira Aranha 		 1715310047 
-#vitor simões Azevedo			 1715310025	 			  
-#victor hugo de oliveira carreira	 1715310063
-#Reinaldo vargas 			 1715310054
-
+# Ulisses Antonio Da Costa                1515090555
+# Tiiago Ferreira Aranha 		 1715310047 
+# Vitor Simões Azevedo			 1715310025	 			  
+# Victor Hugo de Oliveira Carreira	 1715310063
+# Reinaldo Vargas 			 1715310054
+#
+# A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,...
+# Faça um programa capaz de gerar a série até o n−ésimo termo
 #---------------------------------------------------------------------------------------------------
-
-#A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,...
-#Faça um programa capaz de gerar a série até o n−ésimo termo
 
 prev_number = 0
 next_number = 1
