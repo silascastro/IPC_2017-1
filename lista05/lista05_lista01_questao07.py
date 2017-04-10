@@ -12,13 +12,12 @@
 #---------------------------------------------------------------------------
 
 count = 1
-number = 0
-bigger = number
+bigger = 0
 
 while count <= 5:
     number = float(input('Digite o número %.d ' % count))
     if number > bigger:
         bigger = number
-    count = count + 1
+    count =+ 1
 
 print('O maior numero é: %.2f' % bigger)
