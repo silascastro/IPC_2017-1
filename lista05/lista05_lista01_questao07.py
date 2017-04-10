@@ -11,13 +11,16 @@
 #7)Faça um programa que leia 5 números e informe o maior número.
 #---------------------------------------------------------------------------
 
-count = 1
+c = 1
 bigger = 0
 
-while count <= 5:
-    number = float(input('Digite o número %.d ' % count))
+while c <= 5:
+
+    number = float(input("Número {}: ".format(c)))
+
     if number > bigger:
         bigger = number
-    count =+ 1
 
-print('O maior numero é: %.2f' % bigger)
+    c += 1
+
+print("Maior número: %d" % bigger)
