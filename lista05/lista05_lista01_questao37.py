@@ -2,9 +2,9 @@
 Introdução a Programação de Computadores - IPC
  +# Universidade do Estado do Amazonas - UEA
  +# Prof. Jucimar Jr
-  +# Kethelen Tamara Braga Barbosa           1525212002
+ +# Kethelen Tamara Braga Barbosa           1525212002
  +# Lucas Gabriel Silveira Duarte           1715310053
-   +# Luis Gustavo Moura de Queiroz           1715310037
+ +# Luis Gustavo Moura de Queiroz           1715310037
  +# Luiz Daniel Raposo Nunes de Mello       1715310049
  +# Luiz Paulo Machado e Souza              1515200542
 
