@@ -9,23 +9,13 @@
 # Wilbert Luís Evangelista Marins  1715310055
 # Yuri Leandro de Aquino Silva     1615100462
 #
-#A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,
+# A série de Fibonacci é formada pela seqüência 0,1,1,2,3,5,8,
 # 13,21,34,55,...Faça um programa que gere a série até que o
 # valor seja maior que 500.
 #-----------------------------------------------------------
-
-prev_number = 0
-next_number = 1
-fibonacci = 0
-count = 1
-
-while fibonacci <= 500:
-    if count == 1:
-        print(prev_number, end = ' ')
-    else:
-        print(next_number, end = ' ')
-        fibonacci = prev_number + next_number
-        prev_number = next_number
-        next_number = fibonacci
-    count += 1
-print(fibonacci)
+current_fib = 0
+next_fib = 1
+while current_fib <= 500:
+    new_fib = current_fib + next_fib
+    current_fib = next_fib
+    next_fib = new_fib
