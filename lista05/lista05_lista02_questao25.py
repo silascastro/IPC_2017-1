@@ -14,13 +14,13 @@
 #
 # --------------------------------------------------------------------------
 
-n = 0
+cont = 0
 maior = 0
 maior2 = 0
-while n < 3:
+while cont < 3:
     num = int(input('numero'))
     if num > maior:
         maior2=maior
         maior = num
-    n += 1
+    cont += 1
 print(maior, maior2)
