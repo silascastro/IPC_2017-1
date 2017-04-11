@@ -6,6 +6,7 @@
 # Kethelen Tamara Braga Barbosa     1525212002
 # Luiz Paulo Machado e Souza        1515200542
 # Lucas Gabriel Silveira Duarte     1715310053
+# Luis Gustavo Moura de Queiros     1715310037
 #
 #Faça um programa que peça um número inteiro e determine se ele é ou não um número primo.
 # Um número primo é aquele que é divisível somente por ele mesmo e por 1.
