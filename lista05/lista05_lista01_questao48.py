@@ -6,7 +6,7 @@
 # Victor Summer Oliveira Pantaleao 1715310042
 # Walter Nobre Da Silva Conceição  1715310057
 # Wesley da Silva Rocha            1715310026
-# Wilbert Luís Evangelista Martins 1715310055
+# Wilbert Luís Evangelista Marins  1715310055
 # Yuri Leandro de Aquino Silva     1615100462
 #
 # Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido.
