@@ -23,7 +23,7 @@ percentage = float(input("Informe a porcentagem: "))
 year = int(input("Informe o ano: "))
 
 while(year <= 2000):
-    print("Ano:(",year,") Percentual:(",percentage,")Salario: R$",salary,"")
+    print("Ano:(",year,") Percentual:(",percentage,") Salario: R$",salary,"")
     salary += (salary * (percentage / 100.0))
     percentage *= 2
     year += 1
