@@ -13,7 +13,7 @@
 #Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50.
 #----------------------------------------------------------------------------
 
-count = 1
+count = 0
 
 while count < 50:
     count += 1
