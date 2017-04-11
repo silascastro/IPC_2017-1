@@ -13,8 +13,13 @@
 # Depois modifique o programa para que ele mostre os números um ao lado do outro. 
 #----------------------------------------------------------
 
-number = 1
-
-while number <= 20:
-    print(number)
+number = 0
+while number < 20:
     number += 1
+    print(number)
+
+number1 = 0
+while number1 < 20:
+    while number1 < 20:
+        number1 += 1
+        print(number1,end=" ")
