@@ -13,10 +13,10 @@
 
 import math
 
-c = 1
+contador = 1
 
 while c <= 8:
     numero = float(input("Número {}: ".format(c)))
     log = math.log10(numero)
     print("Logaritmo de %5.2f na base 10 é %5.2f" % (numero, log))
-    c += 1
+    contador += 1
