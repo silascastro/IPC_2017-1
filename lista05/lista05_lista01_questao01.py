@@ -14,12 +14,12 @@
 # e continue pedindo até que o usuário informe um valor válido.
 #-----------------------------------------------------------------
 
-grade = float(input('Digite uma nota entre 0 e 10: '))
+notice = float(input('Digite uma nota entre 0 e 10: '))
 
-while (grade > 10) or (grade < 0):
+while (notice > 10) or (notice < 0):
 
     print('Valor inválido')
     print('Digite uma nota entre 0 e 10: ')
-    grade = float(input())
+    notice = float(input())
 
-print("%.2f" % grade,' é uma nota válida')
+print("%.2f" % notice)
