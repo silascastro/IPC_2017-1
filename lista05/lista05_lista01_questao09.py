@@ -15,8 +15,7 @@
 
 count = 1
 
-while 0 < count < 50:
-    arith_progress = 1 + (count - 1)*1
+while count <= 50:
+    if count % 2 != 0:
+        print(count)
     count += 1
-    if (arith_progress % 2 != 0):
-        print(arith_progress, end = '  ')
