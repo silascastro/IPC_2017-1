@@ -9,15 +9,21 @@
 # Wilbert Luís Evangelista Marins  1715310055
 # Yuri Leandro de Aquino Silva     1615100462
 #
-# Escreva um algoritmo em PORTUGOL que determine se um dado número N (digitado pelo usuário) é primo ou não.
+# Escreva um algoritmo em PORTUGOL que determine se um dado
+# número N (digitado pelo usuário) é primo ou não.
 # ----------------------------------------------------------
+n = int(input())
 
-n = int(input("write a number: "))
-
-if n == 2 or n != 1 and n % 2 == 1:
-    print('prime number')
+isPrime = 1
+if n < 2:
+    isPrime = 0
 else:
-    print('not')
+    i = 2
+    while i*i <= n:
+        if n%i == 0:
+            isPrime = 0
+        i += 1
 
+print('é primo' if isPrime else 'não é primo')
 
 
