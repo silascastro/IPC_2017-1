@@ -20,4 +20,4 @@ while counter < number2:
     number = number * number1
     counter += 1
 
-print("o número 1 elevado ao número 2: ", number)
+print("o número", number1, "elevado ao número", number2, " é:",number)
