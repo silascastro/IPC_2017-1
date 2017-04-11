@@ -15,6 +15,7 @@
 
 count = 1
 
-while count <= 50:
-    print(count)
-    count += 2
+while count < 50:
+    count += 1
+    if count%2 != 0 :
+        print(count)
