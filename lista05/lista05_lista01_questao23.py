@@ -14,11 +14,11 @@
 #---------------------------------------------------------------------------
 
 
-primo = int(input("digite um numero inteiro"))
-limite = primo
+N = int(input("digite um numero inteiro"))
+limite = N
 numero = 1
 c = 1
-p = 0
+proximo = 0
 
 
 while numero <= limite:
@@ -29,8 +29,8 @@ while numero <= limite:
         c += 1
     else:
         print(numero,)
-        p += 1
+        proximo += 1
     numero += 1
 
-print("\n\nForam encontrados %d números primos." %p)
+print("\n\nForam encontrados %d números primos." %proximo)
 print("Foram feitas %d divisões." %c)
