@@ -15,15 +15,16 @@
 # no fim imprimir o tempo necessário para que a população do país A ultrapasse a
 # população do país B.
 # ----------------------------------------------------------
+population_count_a = 5*10**6
+birth_rate_a = 0.03
 
-a = 5000000 # total de habitantes no país A
-b = 7000000 # Total de habitantes no país B
-c = 0 # contador
+population_count_b = 7*10**6
+birth_rate_b = 0.02
 
-while a < b: # usamos while para dar, neste caso, um "período de tempo limitado", onde o loop(ou o "programa") acabará quando a meta dita for atingida
-    a = a + (a * 3 / 100) # total de habitantes em A somado ao total de habitantes em A abrangendo a taxa de natalidade deste país
-    b = b + (b * 2 / 100) # total de habitantes em B somado ao total de habitantes em B abrangendo a taxa de natalidade deste país
-    c = c + 1 # contador somado a mais um referente aos anos necessarios para o país A ultrapassar o país B em relação ao número de habitantes
-print('The total of years that the country *A* will have to pass the population of the country *B* will be',c,'years')
+year_count = 0
+while population_count_a < population_count_b:
+    population_count_a *= 1+birth_rate_a
+    population_count_b *= 1+birth_rate_b
+    year_count += 1
 
-
+print('Tempo necessário:', year_count)
