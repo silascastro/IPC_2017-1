@@ -11,15 +11,14 @@
 #
 # Faça um programa que calcule o mostre a média aritmética de N notas.
 #-----------------------------------------------------------
+grades_count = int(input())
 
-quantidade = int(input("Quantidade de médias "))
-contador = 0
-variavel = 0
+grades_sum = 0
+i = 0
+while i < grades_count:
+    grade = float(input())
+    grades_sum += grade
+    i += 1
+grades_media = grades_sum/grades_count
 
-while contador < quantidade:
-    medias = float(input("Média %d: " % (contador+1)))
-    variavel = variavel + medias
-    contador += 1;
-variavel = variavel / quantidade
-
-print("A média aritmética é %.2f" % variavel)
+print('Média aritmética:', grades_media)
