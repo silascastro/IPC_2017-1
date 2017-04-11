@@ -73,5 +73,8 @@ print('A cidade de código {} possui o maior índice de acidentes de trânsito (
 quantidade_media_de_veiculos /= quantidade_de_cidades
 print('Quantidade média de veículos: {}'.format(quantidade_media_de_veiculos))
 
-quantidade_media_de_acidentes /= quantidade_de_cidades_com_menos_de_dois_mil_veiculos
-print('Quantidade média de acidentes: {}'.format(quantidade_media_de_acidentes))
+if quantidade_de_cidades_com_menos_de_dois_mil_veiculos == 0:
+    print('Não existe cidades com menos de dois mil veículos')
+else:
+    quantidade_media_de_acidentes /= quantidade_de_cidades_com_menos_de_dois_mil_veiculos
+    print('Quantidade média de acidentes: {}'.format(quantidade_media_de_acidentes))
