@@ -9,7 +9,14 @@
 # Wilbert Luís Evangelista Marins  1715310055
 # Yuri Leandro de Aquino Silva     1615100462
 #
-# Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido.
+# Faça um programa que peça um numero inteiro positivo e em
+# seguida mostre este numero invertido.
 # ----------------------------------------------------------
+number = int(input())
+new_number = 0
 
-print(str(input('write a number with more than one number: '))[::-1])
+while number:
+    new_number = 10*new_number + number%10
+    number //= 10
+
+print('=>', new_number)
