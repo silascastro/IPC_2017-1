@@ -12,15 +12,13 @@
 #Faça um programa que leia 5 números e informe a soma e a mé-
 #dia dos números.
 #-----------------------------------------------------------
-count = 1
-amount = 0
+values_sum = 0
+values_count = 0
+while values_count < 5:
+    current_value = float(input())
+    values_sum += current_value
+    values_count += 1
+values_media = values_sum/values_count
 
-while count <= 5:
-    num = float(input("Digite um número: "))
-    count += 1
-    amount += num
-
-med = amount / 5
-
-print('Soma total dos números: %.2f ' % amount)
-print('Média dos números: %.2f' % med)
+print('Soma =', values_sum)
+print('Media =', values_media)
