@@ -23,7 +23,7 @@ next_number = int(input("Digite outro numero: "))
 fibonacci = 0
 count = 1
 
-n = int( input('Digite a quantidade de números da sequência fibonacci desejados: '))
+n = int(input('Digite a quantidade de números da sequência fibonacci desejados: '))
 
 while count <= n:
     if count == 1:
