@@ -9,8 +9,8 @@
 # Diogo Roberto Duarte da Costa 1715310056
 # Iury da Silva Coelho          1715310069
 #
-#10.Faça um programa que receba dois números inteiros e gere os números inteiros que estão no
-#intervalo compreendido por eles.
+# 10.Faça um programa que receba dois números inteiros e gere os números inteiros que estão no
+# intervalo compreendido por eles.
 #-----------------------------------------------------------------------------------------------------------------------
 
 number1 = int(input('Digite um número inteiro: '))
