@@ -25,4 +25,4 @@ while population_a <= population_b:
     population_a = population_a + (population_a * growth_a)
     population_b = population_b + (population_b * growth_b)
     years = years + 1
-print("Será preciso", years ,"anos para o país A ser mais populoso que o país B")
+print("Será preciso" , years , "anos para o país A ser mais populoso que o país B")
