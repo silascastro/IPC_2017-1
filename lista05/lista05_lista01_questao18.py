@@ -16,7 +16,7 @@
 
 
 bigger = 0
-sum = 0
+summation = 0
 set_numbers = int(input("Digite quantos numeros farão parte do conjunto: "))
 c = 1
 while c <= set_numbers:
@@ -27,7 +27,7 @@ while c <= set_numbers:
         smaller = number
     if number > bigger:
         bigger = number
-    sum = sum + number
+    summation = summation + number
     c = c + 1
 print("menor = ", smaller)
 print("maior = ", bigger)
