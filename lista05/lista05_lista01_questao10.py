@@ -30,7 +30,6 @@ elif number1 > number2:
     diferenca = (number1 - number2)
     while number2 < diferenca:
         number2 = number2 + 1
-
         print(number2)
 
 
