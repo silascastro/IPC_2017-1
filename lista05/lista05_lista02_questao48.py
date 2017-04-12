@@ -15,12 +15,12 @@
 # sendo N fornecido pelo teclado. 
 #
 #----------------------------------------------------------------
-number_n = int(input())
+number_n = int(input("Digite um número: "))
 count = 1
-s = 0
+number_s = 0
 final = number_n
 while count <= final:
-    s = s + (count/number_n)
+    number_s = number_s + (count/number_n)
     count += 1
     number_n -= 1
-print (s)
+print (number_s)
