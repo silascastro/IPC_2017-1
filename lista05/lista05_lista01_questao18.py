@@ -1,8 +1,17 @@
-#-----------------------------
-# Atraso na entrega
-# Felipe Eduardo | Grupo 3
-# Faça um programa que, dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores.
-#-----------------------------
+#----------------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
+# Universidade do Estado do Amazonas - UEA
+# Prof. Jucimar Jr
+# Evandro Padilha Barroso Filho     1715310009 
+# Gabriel Barroso da Silva Lima     1715310011
+# Frederico Victor Alfaia Rodrigues 1515200030 
+# Felipe Eduardo Silva de Almeida   1715310031 
+# Felipe Guerreiro De Mello         1315120052 
+# Silas castro de Mendonça          1715310066
+#
+# 18. Faça um programa que, dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores.
+#
+#----------------------------------------------------------------
 
 
 mayor = 0
