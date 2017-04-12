@@ -8,7 +8,7 @@
 # Felipe Eduardo Silva de Almeida   1715310031
 # Felipe Guerreiro De Mello         1315120052
 # Silas castro de Mendonça          1715310066
-# Chico tem 1,50m e cresce 2 centímetros por ano, enquanto Juca tem 1,10m e cresce 3
+# 72.Chico tem 1,50m e cresce 2 centímetros por ano, enquanto Juca tem 1,10m e cresce 3
 # centímetros por ano. Construir um algoritmo em PORTUGOL que calcule iterativamente
 # e imprima quantos anos serão necessários para que Juca seja maior que Chico.
 
