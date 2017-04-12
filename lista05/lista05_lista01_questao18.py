@@ -16,9 +16,9 @@
 
 bigger = 0
 sum = 0
-conjunt_numbers = int(input("Digite quantos numeros farão parte do conjunto: "))
+set_numbers = int(input("Digite quantos numeros farão parte do conjunto: "))
 c = 1
-while c <= conjunt_numbers:
+while c <= set_numbers:
     number = int(input("Digite %dº número"%c))
     if c == 1:
         smaller = number
