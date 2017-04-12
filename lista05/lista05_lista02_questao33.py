@@ -8,7 +8,7 @@
 # Felipe Eduardo Silva de Almeida   1715310031
 # Felipe Guerreiro De Mello         1315120052
 # Silas castro de Mendonça          1715310066
-# Escreva um algoritmo que calcule o resto da divisão de A por B (número
+# 33.Escreva um algoritmo que calcule o resto da divisão de A por B (número
 # inteiros e positivos), ou seja, A mod B, através de subtrações sucessivas.
 # Esses dois valores são passados pelo usuário através do teclado.
 
