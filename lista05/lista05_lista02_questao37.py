@@ -10,16 +10,16 @@
 #
 # 37) Escreva um algoritmo em PORTUGOL que determine todos os divisores de
 # um dado número N.
-#---------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
 
-n=int(input("number: "))
-c=1   #aux
+number = int(input("Number: "))
+c = 1  # aux
 
 print("Dividers: ")
 
-while c<=n:
-    
-    if n%c==0:
+while c <= number:
+
+    if number % c == 0:
         print(c)
 
-    c=c+1
+    c = c + 1
