@@ -9,7 +9,7 @@
 # Felipe Guerreiro De Mello         1315120052 
 # Silas castro de Mendonça          1715310066
 #
-#11.Altere o programa anterior para mostrar no final a soma dos números.
+# 11.Altere o programa anterior para mostrar no final a soma dos números.
 # ----------------------------------------------------------------------
 
 amount = 0
