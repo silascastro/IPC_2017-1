@@ -21,13 +21,13 @@ c = 1
 while c <= conjunt_numbers:
     number = int(input("Digite %dº número"%c))
     if c == 1:
-        minor = number
-    if number < minor:
-        minor = number
+        smaller = number
+    if number < smaller:
+        smaller = number
     if number > bigger:
         bigger = number
     addiction = addiction + number
     c = c + 1
-print("menor = ", minor)
+print("menor = ", smaller)
 print("mayor = ", bigger)
 print("soma = ", addiction)
