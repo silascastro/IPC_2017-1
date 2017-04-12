@@ -1,24 +1,37 @@
-# ----------------------------------------------------------------------------------------------------------------------
-# IntroduÃ§Ã£o a ProgramaÃ§Ã£o de Computadores - IPC
+#---------------------------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
-# Erik Atilio Silva Rey         1715310059
-# Edson de Lima Barros          1715310043
-# Enrique LeÃ£o Barbosa Izel     1715310048
-# Diego Reis figueira           1515070169
-# Diogo Roberto Duarte da Costa 1715310056
-# Iury da Silva Coelho          1715310069
 #
-#50.Sendo H= 1 + 1/2 + 1/3 + 1/4 + ... + 1/N, FaÃ§a um programa que calcule o valor de H com N termos.
-#-----------------------------------------------------------------------------------------------------------------------
+# Adham Lucas da Silva Oliveira           1715310059
+# Alexandre Marques Uchôa                 1715310028
+# André Luís Laborda Neves                1515070006
+# Carlos Eduardo Tapudima de Oliveira	  1715310030
+# Aracille de Souza Barbosa               1315120206
+# Dayana Picanço Marquez                  1715310058
 
-number = int(input("Digite um nÃºmero: "))
+# Escreva um algoritmo em PORTUGOL que calcule os N-menores números primos.
+Este número N deve ser lido do teclado.
 
-c = 0
-h = 0
 
-while c < number:
-    h = h + 1/(c+1)
-    c = c + 1
 
-print("O valor de H Ã© = ",h)
+
+n2= int(input("digite limite"))
+n = 0
+a = 0
+while a < n2:
+  a=a+1
+  isPrime = 1
+  if n < 2:
+    isPrime = 0
+    n=n+1
+  else:
+      i = 2
+      while i*i <= n:
+          if n%i == 0:
+              isPrime = 0
+          i += 1
+      if isPrime != 0:
+        print(n)
+  
+  n=n+1
