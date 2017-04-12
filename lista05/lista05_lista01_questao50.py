@@ -1,17 +1,17 @@
 #---------------------------------------------------------------------------
-# Introdução a Programação de Computadores - IPC
+# IntroduÃ§Ã£o a ProgramaÃ§Ã£o de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
 #
 # Adham Lucas da Silva Oliveira           1715310059
-# Alexandre Marques Uchôa                 1715310028
-# André Luís Laborda Neves                1515070006
+# Alexandre Marques UchÃ´a                 1715310028
+# AndrÃ© LuÃ­s Laborda Neves                1515070006
 # Carlos Eduardo Tapudima de Oliveira	  1715310030
 # Aracille de Souza Barbosa               1315120206
-# Dayana Picanço Marquez                  1715310058
+# Dayana PicanÃ§o Marquez                  1715310058
 
-# Escreva um algoritmo em PORTUGOL que calcule os N-menores números primos.
-Este número N deve ser lido do teclado.
+# Escreva um algoritmo em PORTUGOL que calcule os N-menores nÃºmeros primos.
+#Este nÃºmero N deve ser lido do teclado.
 
 
 
