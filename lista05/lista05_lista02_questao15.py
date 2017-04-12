@@ -7,6 +7,7 @@
 # VÍTOR SIMÕES AZEVEDO               1715310025
 # VICTOR HUGO DE OLIVEIRA CARREIRA   1715310063
 # REINALDO VARGAS                    1715310054
+#
 # 15. Escreva um algoritmo em PORTUGOL que receba oito números do usuário e imprima
 # o logaritmo de cada um deles na base 10.
 # --------------------------------------------------------------------------
