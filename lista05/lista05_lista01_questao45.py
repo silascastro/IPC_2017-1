@@ -1,3 +1,13 @@
+# ---------------------------------------------------------------------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
+# Universidade do Estado do Amazonas - UEA
+# Prof. Jucimar Jr
+# ULISSES ANTONIO ANTONINO DA COSTA  1515090555
+# TIAGO FERREIRA ARANHA              1715310047
+# VÍTOR SIMÕES AZEVEDO               1715310025
+# VICTOR HUGO DE OLIVEIRA CARREIRA   1715310063
+# REINALDO VARGAS                    1715310054
+#
 #45. Desenvolver um programa para verificar a nota do aluno em uma prova com 10 questões, o programa deve perguntar ao
 # aluno a resposta de cada questão e ao final comparar com o gabarito da prova e assim calcular o total de acertos e a
 # nota (atribuir 1 ponto por resposta certa). Após cada aluno utilizar o sistema deve ser feita uma pergunta se outro
