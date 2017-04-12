@@ -13,24 +13,21 @@
 #Serão avaliados o funcionamento, o estilo e o número de testes (divisões) executados
 #---------------------------------------------------------------------------
 
-
-N = int(input("digite um numero inteiro"))
-limite = N
+limite = int(input("Digite um numero inteiro: "))
 numero = 1
 c = 1
 proximo = 0
 
-
 while numero <= limite:
-    i = numero -1
+    i = numero - 1
     while i > 1:
         if numero % i == 0: break
         i -= 1
         c += 1
     else:
-        print(numero,)
+        print(numero, )
         proximo += 1
     numero += 1
 
-print("\n\nForam encontrados %d números primos." %proximo)
-print("Foram feitas %d divisões." %c)
+print("\n\nForam encontrados %d números primos." % proximo)
+print("Foram feitas %d divisões." % c)
