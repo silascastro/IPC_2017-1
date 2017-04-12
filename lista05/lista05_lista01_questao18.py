@@ -15,7 +15,7 @@
 
 
 bigger = 0
-addiction = 0
+sum = 0
 conjunt_numbers = int(input("Digite quantos numeros farão parte do conjunto: "))
 c = 1
 while c <= conjunt_numbers:
@@ -26,8 +26,8 @@ while c <= conjunt_numbers:
         smaller = number
     if number > bigger:
         bigger = number
-    addiction = addiction + number
+    sum = sum + number
     c = c + 1
 print("menor = ", smaller)
 print("mayor = ", bigger)
-print("soma = ", addiction)
+print("soma = ", sum)
