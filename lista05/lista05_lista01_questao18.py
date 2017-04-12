@@ -20,7 +20,7 @@ summation = 0
 set_numbers = int(input("Digite quantos numeros farão parte do conjunto: "))
 c = 1
 while c <= set_numbers:
-    number = int(input("Digite o %dº número" % c))
+    number = int(input("Digite o %dº número: " % c))
     if c == 1:
         smaller = number
     if number < smaller:
@@ -31,4 +31,4 @@ while c <= set_numbers:
     c = c + 1
 print("menor = ", smaller)
 print("maior = ", bigger)
-print("soma = ", sum)
+print("soma = ", summation)
