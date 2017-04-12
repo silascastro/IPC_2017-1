@@ -1,0 +1,20 @@
+# ----------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
+# Universidade do Estado do Amazonas - UEA
+# Prof. Jucimar Jr.
+# GRUPO 9
+# Fang Yao                         1115180236
+# Antonio Diego Furtado da Silva   1715310004
+#
+#
+# EXE.36-Desenvolva em programa que faça a tabuada de um número qualquer inteiro que será digitado pelo usuário,mas a tabuada não deve 
+         necessariamente iniciar em 1 e terminar em 10,o valor inicial e final devem ser informados também pelo usuário.
+
+tab=int(input('digita a tabuada de um numero:'))
+inicio=int(input('digita o inicio:'))
+final=int(input('digira o final:'))
+print('Vou montar a tabuada de %d começando em %d e terminando em %d'10%(tab,inicio,final))
+for inicio in range (inicio,final+1):
+    valor= tab*inicio
+    print("%d*%d=%d"%(tab,inicio,valor))
+    inicio=inicio+1
