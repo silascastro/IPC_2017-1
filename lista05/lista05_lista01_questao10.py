@@ -13,19 +13,11 @@
 # intervalo compreendido por eles.
 #-----------------------------------------------------------------------------------------------------------------------
 
-number1 = int(input('Digite um número inteiro: '))
-number2 = int(input('Digite outro número inteiro: '))
+number1 = int(input('Defina o inicio:'))
+number2 = int(input('Defina o fim: '))
 
-if number1 < number2:
-    diferenca = (number2 - number1)
-    while number1 < diferenca:
-        number1 = number1 + 1
-        print(number1)
-
-elif number1 > number2:
-    diferenca = (number1 - number2)
-    while number2 < diferenca:
-        number2 = number2 + 1
-        print(number2)
+while number1 < number2:
+    number1 = number2 + 1
+    print(number1)
 
 
