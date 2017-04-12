@@ -2,6 +2,7 @@
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
+#
 # Evandro Padilha Barroso Filho     1715310009 
 # Gabriel Barroso da Silva Lima     1715310011
 # Frederico Victor Alfaia Rodrigues 1515200030 
@@ -13,7 +14,6 @@
 # determine o menor valor, o maior valor e a soma dos valores.
 #
 #----------------------------------------------------------------
-
 
 bigger = 0
 summation = 0
