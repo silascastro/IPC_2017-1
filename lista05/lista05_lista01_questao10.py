@@ -13,18 +13,24 @@
 #intervalo compreendido por eles.
 #-----------------------------------------------------------------------------------------------------------------------
 
-number1 = int(input("Digite um número inteiro: "))
-number2 = int(input("Digite outro número inteiro: "))
+#Faça um programa que receba dois números inteiros e gere
+# os números inteiros que estão no intervalo compreendido por eles.
+#------------------------------------------------------------------
 
-if (number1 < number2) :
-    while number1 <= number2 :
+number1 = int(input('Digite um número inteiro: '))
+number2 = int(input('Digite outro número inteiro: '))
+
+if number1 < number2:
+    diferenca = (number2 - number1)
+    while number1 < diferenca:
+        number1 = number1 + 1
         print(number1)
-        number1 += 1
-    
-elif (number1 > number2) :
-    while number2 <= number1 :
-        print(number2)
-        number2 += 1
 
-else:
-    print("Números iguais, intervalo nulo!")
+elif number1 > number2:
+    diferenca = (number1 - number2)
+    while number2 < diferenca:
+        number2 = number2 + 1
+
+        print(number2)
+
+
