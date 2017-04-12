@@ -8,7 +8,7 @@
 # Felipe Eduardo Silva de Almeida   1715310031
 # Felipe Guerreiro De Mello         1315120052
 # Silas castro de Mendonça          1715310066
-# Escreva um algoritmo que gere a série de FIBONACCI até o N-ésimo termo.
+#41.Escreva um algoritmo que gere a série de FIBONACCI até o N-ésimo termo.
 
 serie = int(input("número de termos fibonacci: "))
 prim = 1
