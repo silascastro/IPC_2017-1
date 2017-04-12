@@ -17,12 +17,12 @@
 #----------------------------------------------------------------
 
 population_a = 80000
-grow_a = 0.03
+growth_a = 0.03
 population_b = 200000
 grow_b = 0.015
 c = 0
 while population_a <= population_b:
-    population_a = population_a + (population_a * grow_a)
-    population_b = population_b + (population_b * grow_b)
+    population_a = population_a + (population_a * growth_a)
+    population_b = population_b + (population_b * growth_b)
     c = c + 1
 print("Será preciso", c ,"anos para o país A ser mais populoso que o país B")
