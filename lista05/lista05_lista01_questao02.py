@@ -9,9 +9,9 @@
 # Diogo Roberto Duarte da Costa 1715310056
 # Iury da Silva Coelho          1715310069
 #
-#2.Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário,
-#mostrando uma mensagem de erro e voltando a pedir as informações.
-#Faça um programa que leia e valide as seguintes informações:
+# 2.Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário,
+# mostrando uma mensagem de erro e voltando a pedir as informações.
+# Faça um programa que leia e valide as seguintes informações:
 #-----------------------------------------------------------------------------------------------------------------------
 
 username = input("Informe um nome de usuário: ")
