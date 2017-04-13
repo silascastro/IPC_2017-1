@@ -23,7 +23,7 @@ T = 0 # referente ao tempo inicial
 
 while A < B:
     A = A + 10 # referente ao valor de A somado a + 10 (referente a sua velocidade em m/s)
-    B = B - 15 # referente ao valor de b subtraido b - 15 (referente a sua velocidade em m/s( lembrando que partindo do contrário, logo será uma subtração))
+    B = B - 15 # referente ao valor de b subtraido b - 15 (referente a sua velocidade em m/s (lembrando que partindo do contrário de A, logo será uma subtração))
     T = T + 1 # refente ao tempo t somado a mais 1 segundo a cada vez que o loop ocorre.
 
 print("It was necessary ", T, " seconds to the meeting")
