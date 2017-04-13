@@ -1,26 +1,34 @@
-# ----------------------------------------------------------
-# IntroduÃ§Ã£o a ProgramaÃ§Ã£o de Computadores - IPC
-# Universidade do Estado do Amazonas - UEA
-# Prof. Jucimar Jr.
-# GRUPO 9
-# Fang Yao                         1115180236
-# Antonio Diego Furtado da Silva   1715310004
-#
-# Escreva um algoritmo que calcule o quociente da divisÃ£o de A por B
-#   (nÃºmero inteiros e positivos), ou seja, A div B, atravÃ©s de subtraÃ§Ãµes sucessivas.
-# Esses dois valores sÃ£o passados pelo usuÃ¡rio atravÃ©s do teclado.
-#
 #----------------------------------------------------------------
+# Introdução a Programação de Computadores - IPC
+# Universidade do Estado do Amazonas - UEA
+# Prof. Jucimar Jr
+# Evandro Padilha Barroso Filho     1715310009
+# Gabriel Barroso da Silva Lima     1715310011
+# Frederico Victor Alfaia Rodrigues 1515200030
+# Felipe Eduardo Silva de Almeida   1715310031
+# Felipe Guerreiro De Mello         1315120052
+# Silas castro de Mendonça          1715310066
+# Escreva um algoritmo em Python que calcule 
+# o quociente da divisão de A por B (número inteiros
+# e positivos), ou seja, A div B, através de subtrações
+# sucessivas. Esses dois valores são passados pelo usuário
+# através do teclado. 
 
-dividendo = int(input("Informe o Dividendo (A): "))
-divisor = int(input("Informe o Divisor (B): "))
+A = int(input("dividendo: "))
+B = int(input("divisor: "))
 
-resto = dividendo
-quociente = 0
+while (A <= 0) or (B <= 0):
 
-while resto >= divisor:
-  resto -= divisor
-  quociente += 1
+    print("valores inválidos, devem ser inteiros e positivos")
+    A = int(input("dividendo: "))
+    B = int(input("divisor: "))
 
-print("Valor do Quociente de A/B Ã© %d" %quociente)
-#print("Valor do resto de A/B Ã© %d" %resto)
+c = 0
+A -= B
+
+while A >= 0:
+
+    A -= B
+    c += 1
+
+print("Quociente da divisão:", c)
