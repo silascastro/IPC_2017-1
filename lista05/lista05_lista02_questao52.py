@@ -1,4 +1,4 @@
-# ----------------------------------------------------------
+# ---------------------------------------------------------------------------------
 # Introdução a Programação de Computadores - IPC
 # Universidade do Estado do Amazonas - UEA
 # Prof. Jucimar Jr
@@ -13,21 +13,25 @@
 #deverá ser digitado em graus. O valor do seno de X será calculado pela soma dos 15
 #primeiros termos da série a seguir:
 # senx= x-x^3/3!+x^5/5!...
-#--------------------------------------------------------
-cont1 = 1
-cont2 = 3
-fat = 1
-contfat = 1
-x = (float(input("Informe graus de x:")))
-sen = x
-while cont1 <=15:
-    while contfat <= cont2:
-        fat = fat * contfat
-        contfat+=1
-    if cont1 % 2 != 0:
-         sen -= (x**cont2)/fat
-    else:
-         sen += (x**cont2)/fat
-    cont1 += 1
-    cont2 += 2
-print(sen)
+#----------------------------------------------------------------------------------
+                                       #Doação_do_grupo_07
+x = float(input("Informe o grau: "))   #Doação_do_grupo_07
+x = (x*3.1415926535)/180               #Doação_do_grupo_07
+c = 1                                  #Doação_do_grupo_07 by: uaadc
+senx = 0
+m = 1
+
+while c <= 14:
+    i = 1
+    fatorial = 1
+
+    while i <= m:
+        fatorial = fatorial * i
+        i += 1
+    senx = senx + (x ** m / fatorial) 
+    c += 1
+    m += 2
+    senx = -senx
+senx = 1-senx
+
+print(senx)
