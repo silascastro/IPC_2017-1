@@ -17,26 +17,22 @@
 # --------------------------------------------------------------------------
 
 x = int(input("Informe o grau: "))
-
-denominador = 2
+x = (x*3.1415926535)/180
 c = 1
-operacao = 1
 cosx = 0
+m = 2
 
-while c <= 15:
-
+while c <= 14:
     i = 1
     fatorial = 1
+
     while i <= m:
         fatorial = fatorial * i
         i += 1
-
-    cosx = cosx + (x ** m / fatorial) * operacao
-
+    cosx = cosx + (x ** m / fatorial) 
     c += 1
     m += 2
-    operacao *= -1
-
+    cosx = -cosx
 cosx = 1 - cosx
 
 print(cosx)
